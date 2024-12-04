@@ -6,6 +6,11 @@ from pyspark.ml.feature import VectorAssembler
 from pyspark.ml import Pipeline
 from pyspark.sql import SparkSession
 
+spark = SparkSession.builder \
+    .appName("model-test") \
+    .config("spark.some.config.option", "some-value") \
+    .getOrCreate()
+
 model = PipelineModel.load("hdfs://MN:9000/model/random_forest_model")
 rf_model = model.stages[-1]
 
