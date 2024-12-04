@@ -56,3 +56,4 @@ if __name__ == "__main__":
         print("진행중인 게임이 칼바람나락이 아닙니다.")
     else:
         print(data)
+
