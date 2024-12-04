@@ -24,7 +24,7 @@ def get_tier(s_id):
             else:
                 return response_data[0]['tier'] + " " + response_data[0]['rank']
         except requests.exceptions.RequestException as e:
-            log_info(f"Error fetching match IDs: {e}. Break")
+            print(f"Error fetching match IDs: {e}. Break")
             return False
 
 # 소환사별 특정 챔피언 숙련레벨 얻기 함수
@@ -39,8 +39,8 @@ def get_mastery(puuid, c_id):
             
             return response_data['championLevel']
         except requests.exceptions.RequestException as e:
-            log_info(f"Error fetching data: {e}")
-            return False
+            print(f"Error fetching data: {e}")
+            return 0
         
 def get_puuid(user_nickname, tag_line):
     encoded_name = parse.quote(user_nickname)
@@ -108,14 +108,12 @@ def change_data(data, result):
     result["duration"] = 20
 
 def send_request_to_flask_api(result):
-    url = 'http://localhost:5000/predict'  # Flask API 주소
+    url = 'http://localhost:5000/predict'
     headers = {'Content-Type': 'application/json'}
-    print(result)
-    # result를 JSON 형식으로 변환하여 POST 요청
+
     response = requests.post(url, json=result, headers=headers)
     
     if response.status_code == 200:
-        # 예측 결과 반환
         return response.json()
     else:
         return {"error": "Error while fetching predictions from the model"}
@@ -132,12 +130,24 @@ if __name__ == "__main__":
         
     else:
         data = get_match_data(puuid)
+        print('Success get match data')
         data = fetch_match_data(data)
+        print('Success Get tier and championLevel')
         
         result = defaultdict()
         change_data(data, result)
-        
+        print('Success data preprocessing')
+        print(result)
+        #print(result)
+        print('API send request: ', end = ' ')
         predictions = send_request_to_flask_api(result)
+        print("Success")
+        
+        
+        print(predictions)
+        blue_win_1 = predictions[0]['blue_win_1'] * 100  # Blue 팀 이길 확률 (백분율로 변환)
+        blue_win_0 = predictions[0]['blue_win_0'] * 100  # Red 팀 이길 확률 (백분율로 변환)
 
-        print('Blue 팀 이길 확률:', predictions['blue_win_1'])
-        print('Red 팀 이길 확률:', predictions['blue_win_0'])
+        # 소수점 둘째 자리까지 출력
+        print('Blue 팀 이길 확률: {:.2f}%'.format(blue_win_1))
+        print('Red 팀 이길 확률: {:.2f}%'.format(blue_win_0))
