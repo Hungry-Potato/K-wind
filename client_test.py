@@ -3,7 +3,7 @@ import json
 from urllib import parse
 from collections import defaultdict
 
-API_KEY = ''
+API_KEY = 'RGAPI-9805a7c6-6f36-4a2f-8a92-bf7e2ae23d7b'
 REQUEST_HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36",
     "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
@@ -107,6 +107,20 @@ def change_data(data, result):
 
     result["duration"] = 20
 
+def send_request_to_flask_api(result):
+    url = 'http://localhost:5000/predict'  # Flask API 주소
+    headers = {'Content-Type': 'application/json'}
+    print(result)
+    # result를 JSON 형식으로 변환하여 POST 요청
+    response = requests.post(url, json=result, headers=headers)
+    
+    if response.status_code == 200:
+        # 예측 결과 반환
+        return response.json()
+    else:
+        return {"error": "Error while fetching predictions from the model"}
+
+
 #main
 if __name__ == "__main__":
     nickname = input('Input Nickname: ')
@@ -122,3 +136,8 @@ if __name__ == "__main__":
         
         result = defaultdict()
         change_data(data, result)
+        
+        predictions = send_request_to_flask_api(result)
+
+        print('Blue 팀 이길 확률:', predictions['blue_win_1'])
+        print('Red 팀 이길 확률:', predictions['blue_win_0'])

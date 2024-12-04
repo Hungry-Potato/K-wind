@@ -36,6 +36,10 @@ tier_to_numeric_udf = udf(tier_to_numeric, DoubleType())
 @app.route('/predict', methods=['POST'])
 def predict():
     input_data = request.json
+
+    if isinstance(input_data, dict):
+        input_data = [input_data]
+    
     rows = [Row(**item) for item in input_data]
     
     spark_df = spark.createDataFrame(rows)
