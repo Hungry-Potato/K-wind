@@ -40,7 +40,7 @@ def get_mastery(puuid, c_id):
             return response_data['championLevel']
         except requests.exceptions.RequestException as e:
             print(f"Error fetching data: {e}")
-            return 0
+            return 1
         
 def get_puuid(user_nickname, tag_line):
     encoded_name = parse.quote(user_nickname)
@@ -129,25 +129,20 @@ if __name__ == "__main__":
         print('존재하지 않는 닉네임입니다.')
         
     else:
-        data = get_match_data(puuid)
-        print('Success get match data')
-        data = fetch_match_data(data)
-        print('Success Get tier and championLevel')
+        data = fetch_match_data(get_match_data(puuid))
         
-        result = defaultdict()
-        change_data(data, result)
-        print('Success data preprocessing')
-        print(result)
-        #print(result)
-        print('API send request: ', end = ' ')
-        predictions = send_request_to_flask_api(result)
-        print("Success")
+        if not data:
+            print('게임이 진행중이지 않습니다.')
         
-        
-        print(predictions)
-        blue_win_1 = predictions[0]['blue_win_1'] * 100  # Blue 팀 이길 확률 (백분율로 변환)
-        blue_win_0 = predictions[0]['blue_win_0'] * 100  # Red 팀 이길 확률 (백분율로 변환)
+        else:
+            result = defaultdict()
+            change_data(data, result)
 
-        # 소수점 둘째 자리까지 출력
-        print('Blue 팀 이길 확률: {:.2f}%'.format(blue_win_1))
-        print('Red 팀 이길 확률: {:.2f}%'.format(blue_win_0))
+            predictions = send_request_to_flask_api(result)
+
+            blue_win_1 = predictions[0]['blue_win_1'] * 100  # Blue 팀 이길 확률 (백분율로 변환)
+            blue_win_0 = predictions[0]['blue_win_0'] * 100  # Red 팀 이길 확률 (백분율로 변환)
+
+            # 소수점 둘째 자리까지 출력
+            print('Blue 팀 이길 확률: {:.2f}%'.format(blue_win_1))
+            print('Red 팀 이길 확률: {:.2f}%'.format(blue_win_0))
