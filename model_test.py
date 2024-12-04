@@ -25,7 +25,7 @@ tier_mapping = {
     "PLATINUM I": 4.3, "PLATINUM II": 4.2, "PLATINUM III": 4.1, "PLATINUM IV": 4.0,
     "EMERALD I": 6.9, "EMERALD II": 6.6, "EMERALD III": 6.3, "EMERALD IV": 6.0,
     "DIAMOND I": 9.5, "DIAMOND II": 9, "DIAMOND III": 8.5, "DIAMOND IV": 8.0,
-    "MASTER": 10.0, "GRANDMASTER": 15.0, "CHALLENGER": 20.0, "UNRANK": 1.9
+    "MASTER I": 10.0, "GRANDMASTER I": 15.0, "CHALLENGER I": 20.0, "UNRANK": 1.9
 }
 
 def tier_to_numeric(tier):
