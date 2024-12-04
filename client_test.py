@@ -3,7 +3,7 @@ import json
 from urllib import parse
 from collections import defaultdict
 
-API_KEY = 'RGAPI-9805a7c6-6f36-4a2f-8a92-bf7e2ae23d7b'
+API_KEY = ''
 REQUEST_HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36",
     "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
