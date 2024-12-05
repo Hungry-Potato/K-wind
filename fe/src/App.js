@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import axios from "axios";
 import App1 from './App1';
 function App() {
-  // 상태 변수 초기화 (blue와 red 항목을 나누어 저장)
   const [formData, setFormData] = useState({
     "blue c1": "", "blue c1-tier": "", "blue c1-mastery": "",
     "blue c2": "", "blue c2-tier": "", "blue c2-mastery": "",
@@ -16,16 +15,11 @@ function App() {
     "red c5": "", "red c5-tier": "", "red c5-mastery": "",
   });
 
-  const [generatedData, setGeneratedData] = useState(null);  // 데이터 출력용 상태
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  // state 설정: 버튼 클릭 여부를 관리
-  const [showApp1, setShowApp1] = useState(true);
+  const [showApp1] = useState(true);
 
-  const handleButtonClick = () => {
-    setShowApp1(!showApp1);
-  };
   const tierOptions = [
     "IRON I", "IRON II", "IRON III", "IRON IV",
     "BRONZE I", "BRONZE II", "BRONZE III", "BRONZE IV",
@@ -91,7 +85,7 @@ function App() {
     "Zyra"
 ];
 
-  // 폼 데이터 업데이트 함수
+
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -100,7 +94,6 @@ function App() {
     });
   };
 
-  // 생성된 데이터를 출력하는 함수
   const generateData = () => {
     const requestData = {
       "blue c1": x[formData["blue c1"]] !== undefined ? x[formData["blue c1"]] : (formData["blue c1"] === "" ? "" : Number(formData["blue c1"])),
@@ -133,11 +126,9 @@ function App() {
       "red c5": x[formData["red c5"]] !== undefined ? x[formData["red c5"]] : (formData["red c5"] === "" ? "" : Number(formData["red c5"])),
       "red-c5-tier": formData["red c5-tier"],
       "red_c5-mastery": formData["red c5-mastery"] === "" ? "" : Number(formData["red c5-mastery"]),
-      // duration은 자동으로 20으로 설정
       duration: 20,
     };
 
-    //setGeneratedData(requestData);
     sendGeneratedDataToAPI(requestData);
   };
 
@@ -156,7 +147,7 @@ function App() {
           },
         }
       );
-      setResult(response.data); // API 응답을 결과로 설정
+      setResult(response.data);
     } catch (err) {
       setError(
         err.response?.data?.error ||
@@ -164,7 +155,7 @@ function App() {
         err.response?.statusText ||
         "Something went wrong"
       );
-      console.error("Error details:", err); // 콘솔에 에러 세부 정보 출력
+      console.error("Error details:", err);
     } finally {
       setLoading(false);
     }
@@ -172,7 +163,6 @@ function App() {
   const formatResult = (result) => {
     if (!result || result.length === 0) return null;
 
-    // Blue와 Red의 승리 확률 추출
     const blueWinProbability = result[0].blue_win_1 * 100;
     const redWinProbability = result[0].blue_win_0 * 100;
 
@@ -185,7 +175,7 @@ function App() {
         <p style={{ color: "red", fontWeight: "bold" }}>
           Red가 이길 확률: {redWinProbability.toFixed(2)}%
         </p>
-        {/* 승리 확률을 시각적으로 보여주는 부분 */}
+        
         <div>
           <div
             style={{
@@ -214,12 +204,12 @@ function App() {
       <h1>직접 데이터로 주기</h1>
 
       <form onSubmit={(e) => e.preventDefault()} style={{ display: "flex", gap: "20px" }}>
-        {/* blue 항목 */}
+
         <div style={{ flex: 1, padding: "20px", borderRight: "2px solid #ccc" }}>
           <h2>Blue Stats</h2>
           {["c1", "c2", "c3", "c4", "c5"].map((num) => (
             <div key={num} style={{ display: "flex", gap: "10px", marginBottom: "10px" }}>
-              {/* 각 항목 그룹 */}
+
               <div style={{ flex: 1 }}>
                 <label>{`Blue ${num}:`}</label>
                 <select
@@ -270,12 +260,12 @@ function App() {
           ))}
         </div>
 
-        {/* red 항목 */}
+
         <div style={{ flex: 1, padding: "20px" }}>
           <h2>Red Stats</h2>
           {["c1", "c2", "c3", "c4", "c5"].map((num) => (
             <div key={num} style={{ display: "flex", gap: "10px", marginBottom: "10px" }}>
-              {/* 각 항목 그룹 */}
+
               <div style={{ flex: 1 }}>
               <label>{`Red ${num}:`}</label>
               <select
@@ -339,7 +329,7 @@ function App() {
         >
           Submit
         </button>
-      {/* API 요청 후 결과 출력 */}
+
       {loading && <p>Loading...</p>}
       {error && <p style={{ color: "red" }}>{error}</p>}
       {formatResult(result)}
@@ -350,10 +340,7 @@ function App() {
       <br></br>
 
       <h1>진행중인 게임으로 확인하기</h1>
-      {/*<button onClick={handleButtonClick}>
-        {showApp1 ? 'Hide' : 'Show'} 진행중인 게임
-      </button>*/}
-      {showApp1 && <App1 />}  {/* showApp1이 true일 때만 App1 렌더링 */}
+      {showApp1 && <App1 />}
     </div>
   );
 }
