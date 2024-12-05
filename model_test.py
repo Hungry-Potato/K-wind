@@ -16,7 +16,7 @@ spark = SparkSession.builder \
     .config("spark.some.config.option", "some-value") \
     .getOrCreate()
 
-API_KEY = 'RGAPI-1c241dde-7e84-4266-9d08-072d1557db5c'
+API_KEY = ''
 REQUEST_HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36",
     "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
