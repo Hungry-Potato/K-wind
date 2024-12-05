@@ -8,15 +8,18 @@ from pyspark.ml import Pipeline
 from pyspark.sql import SparkSession
 from urllib import parse
 import requests
+from flask_cors import CORS
+
 
 app = Flask(__name__)
+CORS(app)
 
 spark = SparkSession.builder \
     .appName("model-test") \
     .config("spark.some.config.option", "some-value") \
     .getOrCreate()
 
-API_KEY = 'RGAPI-1c241dde-7e84-4266-9d08-072d1557db5c'
+API_KEY = ''
 REQUEST_HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36",
     "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
@@ -28,17 +31,6 @@ REQUEST_HEADERS = {
 
 model = PipelineModel.load("hdfs://MN:9000/model/random_forest_model")
 rf_model = model.stages[-1]
-
-tier_mapping = {
-    "IRON I": 0.4, "IRON II": 0.3, "IRON III": 0.2, "IRON IV": 0.1,
-    "BRONZE I": 1.3, "BRONZE II": 1.2, "BRONZE III": 1.1, "BRONZE IV": 1.0,
-    "SILVER I": 2.3, "SILVER II": 2.2, "SILVER III": 2.1, "SILVER IV": 2.0,
-    "GOLD I": 3.3, "GOLD II": 3.2, "GOLD III": 3.1, "GOLD IV": 3.0,
-    "PLATINUM I": 4.3, "PLATINUM II": 4.2, "PLATINUM III": 4.1, "PLATINUM IV": 4.0,
-    "EMERALD I": 6.9, "EMERALD II": 6.6, "EMERALD III": 6.3, "EMERALD IV": 6.0,
-    "DIAMOND I": 9.5, "DIAMOND II": 9, "DIAMOND III": 8.5, "DIAMOND IV": 8.0,
-    "MASTER I": 10.0, "GRANDMASTER I": 15.0, "CHALLENGER I": 20.0, "UNRANK": 1.9
-}
 
 def get_tier(s_id):
     url = f'https://kr.api.riotgames.com/lol/league/v4/entries/by-summoner/{s_id}'
@@ -135,8 +127,7 @@ def change_data(data, result):
     
     return result
 
-def tier_to_numeric(tier):
-    return tier_mapping.get(tier, 0)
+
 
 def get_predictions(input_data):
     if isinstance(input_data, dict):
@@ -172,8 +163,20 @@ def get_probabilities(predictions):
 
     return predictions.select("blue_win_0", "blue_win_1").toPandas().to_dict(orient="records")
 
-tier_to_numeric_udf = udf(tier_to_numeric, DoubleType())
+def tier_to_numeric(tier):
+    return tier_mapping.get(tier, 0)
+tier_mapping = {
+    "IRON I": 0.4, "IRON II": 0.3, "IRON III": 0.2, "IRON IV": 0.1,
+    "BRONZE I": 1.3, "BRONZE II": 1.2, "BRONZE III": 1.1, "BRONZE IV": 1.0,
+    "SILVER I": 2.3, "SILVER II": 2.2, "SILVER III": 2.1, "SILVER IV": 2.0,
+    "GOLD I": 3.3, "GOLD II": 3.2, "GOLD III": 3.1, "GOLD IV": 3.0,
+    "PLATINUM I": 4.3, "PLATINUM II": 4.2, "PLATINUM III": 4.1, "PLATINUM IV": 4.0,
+    "EMERALD I": 6.9, "EMERALD II": 6.6, "EMERALD III": 6.3, "EMERALD IV": 6.0,
+    "DIAMOND I": 9.5, "DIAMOND II": 9, "DIAMOND III": 8.5, "DIAMOND IV": 8.0,
+    "MASTER I": 10.0, "GRANDMASTER I": 15.0, "CHALLENGER I": 20.0, "UNRANK": 1.9
+}
 
+tier_to_numeric_udf = udf(tier_to_numeric, DoubleType())
 @app.route('/predict', methods=['POST'])
 def predict():
     data = request.get_json()
@@ -193,8 +196,18 @@ def predict():
     processed_data = fetch_match_data(match_data)
     
     result = change_data(processed_data, {})
-    
+    print(result)
     predictions = get_predictions(result)
+
+    probabilities = get_probabilities(predictions)
+   
+    return jsonify(probabilities)
+
+@app.route('/predict1', methods=['POST'])
+def predict1():
+    data = request.get_json()
+   
+    predictions = get_predictions(data)
 
     probabilities = get_probabilities(predictions)
    
