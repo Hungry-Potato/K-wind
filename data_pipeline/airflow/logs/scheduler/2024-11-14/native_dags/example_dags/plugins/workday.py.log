@@ -1,0 +1,48 @@
+[2024-11-14T18:39:22.643+0900] {processor.py:186} INFO - Started process (PID=2365246) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-14T18:39:22.644+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-11-14T18:39:22.646+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:22.646+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-14T18:39:22.650+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:22.649+0900] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-14T18:39:22.650+0900] {processor.py:927} WARNING - No viable dags retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-14T18:39:22.661+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.025 seconds
+[2024-11-14T18:40:30.399+0900] {processor.py:186} INFO - Started process (PID=2365541) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-14T18:40:30.403+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-11-14T18:40:30.406+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:30.405+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-14T18:40:30.409+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:30.409+0900] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-14T18:40:30.409+0900] {processor.py:927} WARNING - No viable dags retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-14T18:40:30.420+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.028 seconds
+[2024-11-14T18:41:19.303+0900] {processor.py:186} INFO - Started process (PID=2365986) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-14T18:41:19.308+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-11-14T18:41:19.310+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:41:19.309+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-14T18:41:19.313+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:41:19.313+0900] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-14T18:41:19.313+0900] {processor.py:927} WARNING - No viable dags retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-14T18:41:19.324+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.028 seconds
+[2024-11-14T18:41:53.081+0900] {processor.py:186} INFO - Started process (PID=2366110) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-14T18:41:53.085+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-11-14T18:41:53.087+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:41:53.086+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-14T18:41:53.090+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:41:53.090+0900] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-14T18:41:53.090+0900] {processor.py:927} WARNING - No viable dags retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-14T18:41:53.102+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.028 seconds
+[2024-11-14T18:42:43.791+0900] {processor.py:186} INFO - Started process (PID=2366344) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-14T18:42:43.795+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-11-14T18:42:43.797+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:42:43.797+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-14T18:42:43.800+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:42:43.800+0900] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-14T18:42:43.801+0900] {processor.py:927} WARNING - No viable dags retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-14T18:42:43.812+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.028 seconds
+[2024-11-14T18:43:35.533+0900] {processor.py:186} INFO - Started process (PID=2366399) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-14T18:43:35.537+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-11-14T18:43:35.539+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:43:35.539+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-14T18:43:35.542+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:43:35.542+0900] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-14T18:43:35.543+0900] {processor.py:927} WARNING - No viable dags retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-14T18:43:35.554+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.028 seconds
+[2024-11-14T18:44:27.540+0900] {processor.py:186} INFO - Started process (PID=2366482) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-14T18:44:27.544+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-11-14T18:44:27.547+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:44:27.546+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-14T18:44:27.550+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:44:27.550+0900] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-14T18:44:27.550+0900] {processor.py:927} WARNING - No viable dags retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-14T18:44:27.562+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.028 seconds
+[2024-11-14T18:45:18.006+0900] {processor.py:186} INFO - Started process (PID=2366534) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-14T18:45:18.010+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-11-14T18:45:18.012+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:45:18.012+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-14T18:45:18.015+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:45:18.015+0900] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-14T18:45:18.016+0900] {processor.py:927} WARNING - No viable dags retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-14T18:45:18.027+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.028 seconds

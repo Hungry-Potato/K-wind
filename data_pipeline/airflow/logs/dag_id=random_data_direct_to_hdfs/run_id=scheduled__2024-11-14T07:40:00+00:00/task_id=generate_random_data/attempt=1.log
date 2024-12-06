@@ -1,0 +1,17 @@
+[2024-11-15T15:33:39.050+0900] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-15T15:33:39.060+0900] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: random_data_direct_to_hdfs.generate_random_data scheduled__2024-11-14T07:40:00+00:00 [queued]>
+[2024-11-15T15:33:39.066+0900] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: random_data_direct_to_hdfs.generate_random_data scheduled__2024-11-14T07:40:00+00:00 [queued]>
+[2024-11-15T15:33:39.066+0900] {taskinstance.py:2866} INFO - Starting attempt 1 of 6
+[2024-11-15T15:33:39.081+0900] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): generate_random_data> on 2024-11-14 07:40:00+00:00
+[2024-11-15T15:33:39.083+0900] {standard_task_runner.py:72} INFO - Started process 2389543 to run task
+[2024-11-15T15:33:39.087+0900] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'random_data_direct_to_hdfs', 'generate_random_data', 'scheduled__2024-11-14T07:40:00+00:00', '--job-id', '139', '--raw', '--subdir', 'DAGS_FOLDER/data_to_hdfs.py', '--cfg-path', '/tmp/tmp7_egru_7']
+[2024-11-15T15:33:39.088+0900] {standard_task_runner.py:105} INFO - Job 139: Subtask generate_random_data
+[2024-11-15T15:33:39.121+0900] {task_command.py:467} INFO - Running <TaskInstance: random_data_direct_to_hdfs.generate_random_data scheduled__2024-11-14T07:40:00+00:00 [running]> on host MN
+[2024-11-15T15:33:39.188+0900] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='lwjeong' AIRFLOW_CTX_DAG_ID='random_data_direct_to_hdfs' AIRFLOW_CTX_TASK_ID='generate_random_data' AIRFLOW_CTX_EXECUTION_DATE='2024-11-14T07:40:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-14T07:40:00+00:00'
+[2024-11-15T15:33:39.189+0900] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-15T15:33:39.201+0900] {python.py:240} INFO - Done. Returned value was: [{"id": 0, "value": 8, "timestamp": "2024-11-15T15:33:39.201519"}, {"id": 1, "value": 47, "timestamp": "2024-11-15T15:33:39.201519"}, {"id": 2, "value": 72, "timestamp": "2024-11-15T15:33:39.201519"}, {"id": 3, "value": 31, "timestamp": "2024-11-15T15:33:39.201519"}, {"id": 4, "value": 53, "timestamp": "2024-11-15T15:33:39.201519"}, {"id": 5, "value": 54, "timestamp": "2024-11-15T15:33:39.201519"}, {"id": 6, "value": 27, "timestamp": "2024-11-15T15:33:39.201519"}, {"id": 7, "value": 52, "timestamp": "2024-11-15T15:33:39.201519"}, {"id": 8, "value": 14, "timestamp": "2024-11-15T15:33:39.201519"}, {"id": 9, "value": 28, "timestamp": "2024-11-15T15:33:39.201519"}]
+[2024-11-15T15:33:39.216+0900] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-15T15:33:39.216+0900] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=random_data_direct_to_hdfs, task_id=generate_random_data, run_id=scheduled__2024-11-14T07:40:00+00:00, execution_date=20241114T074000, start_date=20241115T063339, end_date=20241115T063339
+[2024-11-15T15:33:39.259+0900] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-15T15:33:39.279+0900] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-15T15:33:39.284+0900] {local_task_job_runner.py:245} INFO - ::endgroup::

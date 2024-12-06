@@ -1,0 +1,66 @@
+[2024-12-02T17:29:16.421+0900] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-02T17:29:16.431+0900] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: process_and_upload_json_to_hdfs.save_champion_to_hdfs scheduled__2024-12-02T07:00:00+00:00 [queued]>
+[2024-12-02T17:29:16.438+0900] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: process_and_upload_json_to_hdfs.save_champion_to_hdfs scheduled__2024-12-02T07:00:00+00:00 [queued]>
+[2024-12-02T17:29:16.438+0900] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-02T17:29:16.455+0900] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): save_champion_to_hdfs> on 2024-12-02 07:00:00+00:00
+[2024-12-02T17:29:16.457+0900] {standard_task_runner.py:72} INFO - Started process 5136 to run task
+[2024-12-02T17:29:16.461+0900] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'process_and_upload_json_to_hdfs', 'save_champion_to_hdfs', 'scheduled__2024-12-02T07:00:00+00:00', '--job-id', '359', '--raw', '--subdir', 'DAGS_FOLDER/data_to_hdfs.py', '--cfg-path', '/tmp/tmp2xf3w9ma']
+[2024-12-02T17:29:16.462+0900] {standard_task_runner.py:105} INFO - Job 359: Subtask save_champion_to_hdfs
+[2024-12-02T17:29:16.495+0900] {task_command.py:467} INFO - Running <TaskInstance: process_and_upload_json_to_hdfs.save_champion_to_hdfs scheduled__2024-12-02T07:00:00+00:00 [running]> on host MN
+[2024-12-02T17:29:16.561+0900] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='process_and_upload_json_to_hdfs' AIRFLOW_CTX_TASK_ID='save_champion_to_hdfs' AIRFLOW_CTX_EXECUTION_DATE='2024-12-02T07:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-02T07:00:00+00:00'
+[2024-12-02T17:29:16.562+0900] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-02T17:29:16.576+0900] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2024-12-02T17:29:16.577+0900] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'for champion_file in /laewon/Riot/output/champion_*.csv; do   hdfs dfs -put -f $champion_file /data/$(basename $champion_file); done']
+[2024-12-02T17:29:16.582+0900] {subprocess.py:99} INFO - Output:
+[2024-12-02T17:30:28.678+0900] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-12-02T17:30:28.685+0900] {process_utils.py:132} INFO - Sending 15 to group 5136. PIDs of all processes in the group: [5138, 7168, 5136]
+[2024-12-02T17:30:28.685+0900] {process_utils.py:87} INFO - Sending the signal 15 to group 5136
+[2024-12-02T17:30:28.686+0900] {taskinstance.py:3093} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-12-02T17:30:28.686+0900] {subprocess.py:117} INFO - Sending SIGTERM signal to process group
+[2024-12-02T17:30:28.695+0900] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/operators/bash.py", line 257, in execute
+    result = self._run_inline_command(bash_path=bash_path, env=env)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/operators/bash.py", line 284, in _run_inline_command
+    return self.subprocess_hook.run_command(
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/hooks/subprocess.py", line 104, in run_command
+    for raw_line in iter(self.sub_process.stdout.readline, b""):
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 3095, in signal_handler
+    raise AirflowTaskTerminated("Task received SIGTERM signal")
+airflow.exceptions.AirflowTaskTerminated: Task received SIGTERM signal
+[2024-12-02T17:30:28.703+0900] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=process_and_upload_json_to_hdfs, task_id=save_champion_to_hdfs, run_id=scheduled__2024-12-02T07:00:00+00:00, execution_date=20241202T070000, start_date=20241202T082916, end_date=20241202T083028
+[2024-12-02T17:30:28.719+0900] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-02T17:30:28.737+0900] {process_utils.py:80} INFO - Process psutil.Process(pid=5136, status='terminated', exitcode=2, started='17:29:15') (5136) terminated with exit code 2
+[2024-12-02T17:30:28.738+0900] {process_utils.py:80} INFO - Process psutil.Process(pid=5138, status='terminated', started='17:29:16') (5138) terminated with exit code None
+[2024-12-02T17:30:29.324+0900] {process_utils.py:80} INFO - Process psutil.Process(pid=7168, status='terminated', started='17:30:26') (7168) terminated with exit code None
+[2024-12-02T17:30:31.835+0900] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-02T17:30:31.845+0900] {taskinstance.py:2603} INFO - Dependencies not met for <TaskInstance: process_and_upload_json_to_hdfs.save_champion_to_hdfs scheduled__2024-12-02T07:00:00+00:00 [up_for_retry]>, dependency 'Not In Retry Period' FAILED: Task is not ready for retry yet but will be retried automatically. Current date is 2024-12-02T08:30:31.845303+00:00 and task will be retried at 2024-12-02T08:35:28.702955+00:00.
+[2024-12-02T17:30:31.845+0900] {local_task_job_runner.py:166} INFO - Task is not able to be run
+[2024-12-02T17:43:06.243+0900] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-02T17:43:06.253+0900] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: process_and_upload_json_to_hdfs.save_champion_to_hdfs scheduled__2024-12-02T07:00:00+00:00 [queued]>
+[2024-12-02T17:43:06.260+0900] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: process_and_upload_json_to_hdfs.save_champion_to_hdfs scheduled__2024-12-02T07:00:00+00:00 [queued]>
+[2024-12-02T17:43:06.260+0900] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-02T17:43:06.276+0900] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): save_champion_to_hdfs> on 2024-12-02 07:00:00+00:00
+[2024-12-02T17:43:06.279+0900] {standard_task_runner.py:72} INFO - Started process 27849 to run task
+[2024-12-02T17:43:06.283+0900] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'process_and_upload_json_to_hdfs', 'save_champion_to_hdfs', 'scheduled__2024-12-02T07:00:00+00:00', '--job-id', '370', '--raw', '--subdir', 'DAGS_FOLDER/data_to_hdfs.py', '--cfg-path', '/tmp/tmpb0v6q5yv']
+[2024-12-02T17:43:06.284+0900] {standard_task_runner.py:105} INFO - Job 370: Subtask save_champion_to_hdfs
+[2024-12-02T17:43:06.317+0900] {task_command.py:467} INFO - Running <TaskInstance: process_and_upload_json_to_hdfs.save_champion_to_hdfs scheduled__2024-12-02T07:00:00+00:00 [running]> on host MN
+[2024-12-02T17:43:06.384+0900] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='process_and_upload_json_to_hdfs' AIRFLOW_CTX_TASK_ID='save_champion_to_hdfs' AIRFLOW_CTX_EXECUTION_DATE='2024-12-02T07:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-02T07:00:00+00:00'
+[2024-12-02T17:43:06.385+0900] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-02T17:43:06.399+0900] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2024-12-02T17:43:06.400+0900] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'for champion_file in /laewon/Riot/output/champion_*.csv; do   hdfs dfs -put -f $champion_file /data/$(basename $champion_file); done']
+[2024-12-02T17:43:06.406+0900] {subprocess.py:99} INFO - Output:
+[2024-12-02T17:49:25.623+0900] {subprocess.py:110} INFO - Command exited with return code 0
+[2024-12-02T17:49:25.644+0900] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-02T17:49:25.645+0900] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=process_and_upload_json_to_hdfs, task_id=save_champion_to_hdfs, run_id=scheduled__2024-12-02T07:00:00+00:00, execution_date=20241202T070000, start_date=20241202T084306, end_date=20241202T084925
+[2024-12-02T17:49:25.694+0900] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-02T17:49:25.705+0900] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-02T17:49:25.706+0900] {local_task_job_runner.py:245} INFO - ::endgroup::

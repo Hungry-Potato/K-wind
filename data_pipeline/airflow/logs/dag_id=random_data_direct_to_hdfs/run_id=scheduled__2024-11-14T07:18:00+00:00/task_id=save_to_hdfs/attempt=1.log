@@ -1,0 +1,20 @@
+[2024-11-15T15:30:25.607+0900] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-15T15:30:25.617+0900] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: random_data_direct_to_hdfs.save_to_hdfs scheduled__2024-11-14T07:18:00+00:00 [queued]>
+[2024-11-15T15:30:25.624+0900] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: random_data_direct_to_hdfs.save_to_hdfs scheduled__2024-11-14T07:18:00+00:00 [queued]>
+[2024-11-15T15:30:25.625+0900] {taskinstance.py:2866} INFO - Starting attempt 1 of 6
+[2024-11-15T15:30:25.638+0900] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): save_to_hdfs> on 2024-11-14 07:18:00+00:00
+[2024-11-15T15:30:25.641+0900] {standard_task_runner.py:72} INFO - Started process 2386621 to run task
+[2024-11-15T15:30:25.644+0900] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'random_data_direct_to_hdfs', 'save_to_hdfs', 'scheduled__2024-11-14T07:18:00+00:00', '--job-id', '78', '--raw', '--subdir', 'DAGS_FOLDER/data_to_hdfs.py', '--cfg-path', '/tmp/tmp3_ajp16y']
+[2024-11-15T15:30:25.646+0900] {standard_task_runner.py:105} INFO - Job 78: Subtask save_to_hdfs
+[2024-11-15T15:30:25.679+0900] {task_command.py:467} INFO - Running <TaskInstance: random_data_direct_to_hdfs.save_to_hdfs scheduled__2024-11-14T07:18:00+00:00 [running]> on host MN
+[2024-11-15T15:30:25.754+0900] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='lwjeong' AIRFLOW_CTX_DAG_ID='random_data_direct_to_hdfs' AIRFLOW_CTX_TASK_ID='save_to_hdfs' AIRFLOW_CTX_EXECUTION_DATE='2024-11-14T07:18:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-14T07:18:00+00:00'
+[2024-11-15T15:30:25.755+0900] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-15T15:30:25.767+0900] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2024-11-15T15:30:25.768+0900] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "[{"id": 0, "value": 69, "timestamp": "2024-11-15T15:30:06.099649"}, {"id": 1, "value": 84, "timestamp": "2024-11-15T15:30:06.099649"}, {"id": 2, "value": 42, "timestamp": "2024-11-15T15:30:06.099649"}, {"id": 3, "value": 21, "timestamp": "2024-11-15T15:30:06.099649"}, {"id": 4, "value": 84, "timestamp": "2024-11-15T15:30:06.099649"}, {"id": 5, "value": 64, "timestamp": "2024-11-15T15:30:06.099649"}, {"id": 6, "value": 38, "timestamp": "2024-11-15T15:30:06.099649"}, {"id": 7, "value": 34, "timestamp": "2024-11-15T15:30:06.099649"}, {"id": 8, "value": 71, "timestamp": "2024-11-15T15:30:06.099649"}, {"id": 9, "value": 73, "timestamp": "2024-11-15T15:30:06.099649"}]" | hdfs dfs -put -f - /path/in/hdfs/random_data_19.json']
+[2024-11-15T15:30:25.773+0900] {subprocess.py:99} INFO - Output:
+[2024-11-15T15:30:27.884+0900] {subprocess.py:110} INFO - Command exited with return code 0
+[2024-11-15T15:30:27.905+0900] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-15T15:30:27.905+0900] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=random_data_direct_to_hdfs, task_id=save_to_hdfs, run_id=scheduled__2024-11-14T07:18:00+00:00, execution_date=20241114T071800, start_date=20241115T063025, end_date=20241115T063027
+[2024-11-15T15:30:27.942+0900] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-15T15:30:27.955+0900] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-15T15:30:27.956+0900] {local_task_job_runner.py:245} INFO - ::endgroup::

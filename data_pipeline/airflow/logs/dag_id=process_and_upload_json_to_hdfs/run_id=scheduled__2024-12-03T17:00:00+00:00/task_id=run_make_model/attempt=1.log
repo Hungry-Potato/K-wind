@@ -1,0 +1,78 @@
+[2024-12-04T03:06:49.623+0900] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-04T03:06:49.633+0900] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: process_and_upload_json_to_hdfs.run_make_model scheduled__2024-12-03T17:00:00+00:00 [queued]>
+[2024-12-04T03:06:49.640+0900] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: process_and_upload_json_to_hdfs.run_make_model scheduled__2024-12-03T17:00:00+00:00 [queued]>
+[2024-12-04T03:06:49.640+0900] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-04T03:06:49.656+0900] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): run_make_model> on 2024-12-03 17:00:00+00:00
+[2024-12-04T03:06:49.659+0900] {standard_task_runner.py:72} INFO - Started process 709728 to run task
+[2024-12-04T03:06:49.662+0900] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'process_and_upload_json_to_hdfs', 'run_make_model', 'scheduled__2024-12-03T17:00:00+00:00', '--job-id', '506', '--raw', '--subdir', 'DAGS_FOLDER/data_to_hdfs.py', '--cfg-path', '/tmp/tmpocp0y2ad']
+[2024-12-04T03:06:49.664+0900] {standard_task_runner.py:105} INFO - Job 506: Subtask run_make_model
+[2024-12-04T03:06:49.697+0900] {task_command.py:467} INFO - Running <TaskInstance: process_and_upload_json_to_hdfs.run_make_model scheduled__2024-12-03T17:00:00+00:00 [running]> on host MN
+[2024-12-04T03:06:49.763+0900] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='process_and_upload_json_to_hdfs' AIRFLOW_CTX_TASK_ID='run_make_model' AIRFLOW_CTX_EXECUTION_DATE='2024-12-03T17:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-03T17:00:00+00:00'
+[2024-12-04T03:06:49.764+0900] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-04T03:06:49.778+0900] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2024-12-04T03:06:49.778+0900] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', '/laewon/spark/bin/spark-submit --master yarn --deploy-mode cluster /laewon/Riot/make_model.py']
+[2024-12-04T03:06:49.785+0900] {subprocess.py:99} INFO - Output:
+[2024-12-04T03:06:52.062+0900] {subprocess.py:106} INFO - 24/12/04 03:06:52 INFO DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at MN/192.168.4.7:8032
+[2024-12-04T03:06:52.762+0900] {subprocess.py:106} INFO - 24/12/04 03:06:52 INFO Configuration: resource-types.xml not found
+[2024-12-04T03:06:52.762+0900] {subprocess.py:106} INFO - 24/12/04 03:06:52 INFO ResourceUtils: Unable to find 'resource-types.xml'.
+[2024-12-04T03:06:52.777+0900] {subprocess.py:106} INFO - 24/12/04 03:06:52 INFO Client: Verifying our application has not requested more than the maximum memory capability of the cluster (819200 MB per container)
+[2024-12-04T03:06:52.778+0900] {subprocess.py:106} INFO - 24/12/04 03:06:52 INFO Client: Will allocate AM container, with 1408 MB memory including 384 MB overhead
+[2024-12-04T03:06:52.778+0900] {subprocess.py:106} INFO - 24/12/04 03:06:52 INFO Client: Setting up container launch context for our AM
+[2024-12-04T03:06:52.782+0900] {subprocess.py:106} INFO - 24/12/04 03:06:52 INFO Client: Setting up the launch environment for our AM container
+[2024-12-04T03:06:52.794+0900] {subprocess.py:106} INFO - 24/12/04 03:06:52 INFO Client: Preparing resources for our AM container
+[2024-12-04T03:06:52.829+0900] {subprocess.py:106} INFO - 24/12/04 03:06:52 WARN Client: Neither spark.yarn.jars nor spark.yarn.archive is set, falling back to uploading libraries under SPARK_HOME.
+[2024-12-04T03:06:55.641+0900] {subprocess.py:106} INFO - 24/12/04 03:06:55 INFO Client: Uploading resource file:/tmp/spark-fdc8a20f-c992-43cf-baaa-98b6380f4778/__spark_libs__3224027798668108658.zip -> hdfs://MN:9000/user/dke/.sparkStaging/application_1733127595631_0043/__spark_libs__3224027798668108658.zip
+[2024-12-04T03:07:25.739+0900] {subprocess.py:106} INFO - 24/12/04 03:07:25 INFO Client: Uploading resource file:/laewon/Riot/make_model.py -> hdfs://MN:9000/user/dke/.sparkStaging/application_1733127595631_0043/make_model.py
+[2024-12-04T03:07:25.771+0900] {subprocess.py:106} INFO - 24/12/04 03:07:25 INFO Client: Uploading resource file:/laewon/spark-3.5.1-bin-hadoop3/python/lib/pyspark.zip -> hdfs://MN:9000/user/dke/.sparkStaging/application_1733127595631_0043/pyspark.zip
+[2024-12-04T03:07:26.012+0900] {subprocess.py:106} INFO - 24/12/04 03:07:26 INFO Client: Uploading resource file:/laewon/spark-3.5.1-bin-hadoop3/python/lib/py4j-0.10.9.7-src.zip -> hdfs://MN:9000/user/dke/.sparkStaging/application_1733127595631_0043/py4j-0.10.9.7-src.zip
+[2024-12-04T03:07:26.214+0900] {subprocess.py:106} INFO - 24/12/04 03:07:26 INFO Client: Uploading resource file:/tmp/spark-fdc8a20f-c992-43cf-baaa-98b6380f4778/__spark_conf__15036035000132728041.zip -> hdfs://MN:9000/user/dke/.sparkStaging/application_1733127595631_0043/__spark_conf__.zip
+[2024-12-04T03:07:26.305+0900] {subprocess.py:106} INFO - 24/12/04 03:07:26 INFO SecurityManager: Changing view acls to: dke
+[2024-12-04T03:07:26.306+0900] {subprocess.py:106} INFO - 24/12/04 03:07:26 INFO SecurityManager: Changing modify acls to: dke
+[2024-12-04T03:07:26.306+0900] {subprocess.py:106} INFO - 24/12/04 03:07:26 INFO SecurityManager: Changing view acls groups to:
+[2024-12-04T03:07:26.307+0900] {subprocess.py:106} INFO - 24/12/04 03:07:26 INFO SecurityManager: Changing modify acls groups to:
+[2024-12-04T03:07:26.307+0900] {subprocess.py:106} INFO - 24/12/04 03:07:26 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: dke; groups with view permissions: EMPTY; users with modify permissions: dke; groups with modify permissions: EMPTY
+[2024-12-04T03:07:26.343+0900] {subprocess.py:106} INFO - 24/12/04 03:07:26 INFO Client: Submitting application application_1733127595631_0043 to ResourceManager
+[2024-12-04T03:07:26.388+0900] {subprocess.py:106} INFO - 24/12/04 03:07:26 INFO YarnClientImpl: Submitted application application_1733127595631_0043
+[2024-12-04T03:07:27.391+0900] {subprocess.py:106} INFO - 24/12/04 03:07:27 INFO Client: Application report for application_1733127595631_0043 (state: ACCEPTED)
+[2024-12-04T03:07:27.394+0900] {subprocess.py:106} INFO - 24/12/04 03:07:27 INFO Client:
+[2024-12-04T03:07:27.395+0900] {subprocess.py:106} INFO - 	 client token: N/A
+[2024-12-04T03:07:27.395+0900] {subprocess.py:106} INFO - 	 diagnostics: AM container is launched, waiting for AM container to Register with RM
+[2024-12-04T03:07:27.395+0900] {subprocess.py:106} INFO - 	 ApplicationMaster host: N/A
+[2024-12-04T03:07:27.396+0900] {subprocess.py:106} INFO - 	 ApplicationMaster RPC port: -1
+[2024-12-04T03:07:27.396+0900] {subprocess.py:106} INFO - 	 queue: root.default
+[2024-12-04T03:07:27.396+0900] {subprocess.py:106} INFO - 	 start time: 1733249246366
+[2024-12-04T03:07:27.396+0900] {subprocess.py:106} INFO - 	 final status: UNDEFINED
+[2024-12-04T03:07:27.396+0900] {subprocess.py:106} INFO - 	 tracking URL: http://MN:8088/proxy/application_1733127595631_0043/
+[2024-12-04T03:07:27.397+0900] {subprocess.py:106} INFO - 	 user: dke
+[2024-12-04T03:07:51.428+0900] {subprocess.py:106} INFO - 24/12/04 03:07:51 INFO Client: Application report for application_1733127595631_0043 (state: RUNNING)
+[2024-12-04T03:07:51.428+0900] {subprocess.py:106} INFO - 24/12/04 03:07:51 INFO Client:
+[2024-12-04T03:07:51.429+0900] {subprocess.py:106} INFO - 	 client token: N/A
+[2024-12-04T03:07:51.429+0900] {subprocess.py:106} INFO - 	 diagnostics: N/A
+[2024-12-04T03:07:51.429+0900] {subprocess.py:106} INFO - 	 ApplicationMaster host: SN03
+[2024-12-04T03:07:51.429+0900] {subprocess.py:106} INFO - 	 ApplicationMaster RPC port: 45127
+[2024-12-04T03:07:51.430+0900] {subprocess.py:106} INFO - 	 queue: root.default
+[2024-12-04T03:07:51.430+0900] {subprocess.py:106} INFO - 	 start time: 1733249246366
+[2024-12-04T03:07:51.430+0900] {subprocess.py:106} INFO - 	 final status: UNDEFINED
+[2024-12-04T03:07:51.430+0900] {subprocess.py:106} INFO - 	 tracking URL: http://MN:8088/proxy/application_1733127595631_0043/
+[2024-12-04T03:07:51.431+0900] {subprocess.py:106} INFO - 	 user: dke
+[2024-12-04T03:08:21.469+0900] {subprocess.py:106} INFO - 24/12/04 03:08:21 INFO Client: Application report for application_1733127595631_0043 (state: RUNNING)
+[2024-12-04T03:08:33.484+0900] {subprocess.py:106} INFO - 24/12/04 03:08:33 INFO Client: Application report for application_1733127595631_0043 (state: FINISHED)
+[2024-12-04T03:08:33.485+0900] {subprocess.py:106} INFO - 24/12/04 03:08:33 INFO Client:
+[2024-12-04T03:08:33.485+0900] {subprocess.py:106} INFO - 	 client token: N/A
+[2024-12-04T03:08:33.485+0900] {subprocess.py:106} INFO - 	 diagnostics: N/A
+[2024-12-04T03:08:33.486+0900] {subprocess.py:106} INFO - 	 ApplicationMaster host: SN03
+[2024-12-04T03:08:33.486+0900] {subprocess.py:106} INFO - 	 ApplicationMaster RPC port: 45127
+[2024-12-04T03:08:33.486+0900] {subprocess.py:106} INFO - 	 queue: root.default
+[2024-12-04T03:08:33.486+0900] {subprocess.py:106} INFO - 	 start time: 1733249246366
+[2024-12-04T03:08:33.487+0900] {subprocess.py:106} INFO - 	 final status: SUCCEEDED
+[2024-12-04T03:08:33.487+0900] {subprocess.py:106} INFO - 	 tracking URL: http://MN:8088/proxy/application_1733127595631_0043/
+[2024-12-04T03:08:33.487+0900] {subprocess.py:106} INFO - 	 user: dke
+[2024-12-04T03:08:33.494+0900] {subprocess.py:106} INFO - 24/12/04 03:08:33 INFO ShutdownHookManager: Shutdown hook called
+[2024-12-04T03:08:33.495+0900] {subprocess.py:106} INFO - 24/12/04 03:08:33 INFO ShutdownHookManager: Deleting directory /tmp/spark-e004d334-4e03-41cc-ae1b-a26f39d25e61
+[2024-12-04T03:08:33.498+0900] {subprocess.py:106} INFO - 24/12/04 03:08:33 INFO ShutdownHookManager: Deleting directory /tmp/spark-fdc8a20f-c992-43cf-baaa-98b6380f4778
+[2024-12-04T03:08:33.853+0900] {subprocess.py:110} INFO - Command exited with return code 0
+[2024-12-04T03:08:33.876+0900] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-04T03:08:33.876+0900] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=process_and_upload_json_to_hdfs, task_id=run_make_model, run_id=scheduled__2024-12-03T17:00:00+00:00, execution_date=20241203T170000, start_date=20241203T180649, end_date=20241203T180833
+[2024-12-04T03:08:33.917+0900] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-04T03:08:33.928+0900] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-04T03:08:33.928+0900] {local_task_job_runner.py:245} INFO - ::endgroup::

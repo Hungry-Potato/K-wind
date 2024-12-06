@@ -1,0 +1,50 @@
+[2024-11-14T18:40:02.393+0900] {processor.py:186} INFO - Started process (PID=2365488) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-14T18:40:02.394+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-14T18:40:02.399+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:02.398+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-14T18:40:02.406+0900] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-14T18:40:02.518+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:02.517+0900] {override.py:1901} INFO - Created Permission View: can edit on DAG:latest_only
+[2024-11-14T18:40:02.530+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:02.529+0900] {override.py:1901} INFO - Created Permission View: can delete on DAG:latest_only
+[2024-11-14T18:40:02.539+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:02.539+0900] {override.py:1901} INFO - Created Permission View: can read on DAG:latest_only
+[2024-11-14T18:40:02.563+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:02.563+0900] {override.py:1901} INFO - Created Permission View: can create on DAG Run:latest_only
+[2024-11-14T18:40:02.572+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:02.572+0900] {override.py:1901} INFO - Created Permission View: can read on DAG Run:latest_only
+[2024-11-14T18:40:02.582+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:02.581+0900] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:latest_only
+[2024-11-14T18:40:02.591+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:02.590+0900] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:latest_only
+[2024-11-14T18:40:02.591+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:02.591+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:40:02.604+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:02.604+0900] {dag.py:3262} INFO - Creating ORM DAG for latest_only
+[2024-11-14T18:40:02.613+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:02.613+0900] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-14 04:00:00+00:00, run_after=2024-11-14 08:00:00+00:00
+[2024-11-14T18:40:02.635+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.249 seconds
+[2024-11-14T18:41:30.858+0900] {processor.py:186} INFO - Started process (PID=2366057) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-14T18:41:30.862+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-14T18:41:30.865+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:41:30.864+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-14T18:41:30.873+0900] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-14T18:41:30.889+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:41:30.889+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:41:30.912+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:41:30.912+0900] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-14 04:00:00+00:00, run_after=2024-11-14 08:00:00+00:00
+[2024-11-14T18:41:30.934+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.082 seconds
+[2024-11-14T18:42:25.471+0900] {processor.py:186} INFO - Started process (PID=2366265) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-14T18:42:25.472+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-14T18:42:25.474+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:42:25.474+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-14T18:42:25.482+0900] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-14T18:42:25.498+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:42:25.498+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:42:25.521+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:42:25.521+0900] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-14 04:00:00+00:00, run_after=2024-11-14 08:00:00+00:00
+[2024-11-14T18:42:25.543+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.079 seconds
+[2024-11-14T18:43:21.982+0900] {processor.py:186} INFO - Started process (PID=2366384) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-14T18:43:21.986+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-14T18:43:21.988+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:43:21.988+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-14T18:43:21.996+0900] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-14T18:43:22.013+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:43:22.013+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:43:22.036+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:43:22.036+0900] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-14 04:00:00+00:00, run_after=2024-11-14 08:00:00+00:00
+[2024-11-14T18:43:22.057+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.082 seconds
+[2024-11-14T18:44:12.809+0900] {processor.py:186} INFO - Started process (PID=2366437) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-14T18:44:12.814+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-14T18:44:12.816+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:44:12.815+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-14T18:44:12.824+0900] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-14T18:44:12.841+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:44:12.841+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:44:12.865+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:44:12.865+0900] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-14 04:00:00+00:00, run_after=2024-11-14 08:00:00+00:00
+[2024-11-14T18:44:12.888+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.086 seconds
+[2024-11-14T18:45:05.039+0900] {processor.py:186} INFO - Started process (PID=2366519) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-14T18:45:05.043+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-14T18:45:05.045+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:45:05.045+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-14T18:45:05.053+0900] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-14T18:45:05.070+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:45:05.069+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:45:05.094+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:45:05.093+0900] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-14 04:00:00+00:00, run_after=2024-11-14 08:00:00+00:00
+[2024-11-14T18:45:05.115+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.083 seconds
