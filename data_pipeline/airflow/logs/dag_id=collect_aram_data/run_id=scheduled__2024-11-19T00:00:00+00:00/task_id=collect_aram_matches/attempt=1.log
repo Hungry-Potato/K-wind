@@ -1,0 +1,168 @@
+[2024-11-20T19:28:14.210+0900] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-20T19:28:14.222+0900] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: collect_aram_data.collect_aram_matches scheduled__2024-11-19T00:00:00+00:00 [queued]>
+[2024-11-20T19:28:14.229+0900] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: collect_aram_data.collect_aram_matches scheduled__2024-11-19T00:00:00+00:00 [queued]>
+[2024-11-20T19:28:14.229+0900] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-11-20T19:28:14.243+0900] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): collect_aram_matches> on 2024-11-19 00:00:00+00:00
+[2024-11-20T19:28:14.245+0900] {standard_task_runner.py:72} INFO - Started process 2408907 to run task
+[2024-11-20T19:28:14.249+0900] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'collect_aram_data', 'collect_aram_matches', 'scheduled__2024-11-19T00:00:00+00:00', '--job-id', '242', '--raw', '--subdir', 'DAGS_FOLDER/collect_ARM_data.py', '--cfg-path', '/tmp/tmpc18o6vpr']
+[2024-11-20T19:28:14.250+0900] {standard_task_runner.py:105} INFO - Job 242: Subtask collect_aram_matches
+[2024-11-20T19:28:14.288+0900] {task_command.py:467} INFO - Running <TaskInstance: collect_aram_data.collect_aram_matches scheduled__2024-11-19T00:00:00+00:00 [running]> on host MN
+[2024-11-20T19:28:14.354+0900] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='collect_aram_data' AIRFLOW_CTX_TASK_ID='collect_aram_matches' AIRFLOW_CTX_EXECUTION_DATE='2024-11-19T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-19T00:00:00+00:00'
+[2024-11-20T19:28:14.355+0900] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-20T19:28:14.663+0900] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/laewon/airflow_test/dags/collect_ARM_data.py", line 52, in collect_aram_data
+    summoner_info = fetch_summoner_info(summoner_name)
+  File "/laewon/airflow_test/dags/collect_ARM_data.py", line 24, in fetch_summoner_info
+    response.raise_for_status()  # 실패 시 예외 발생
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://kr.api.riotgames.com/lol/summoner/v4/summoners/by-name/SummonerName
+[2024-11-20T19:28:14.672+0900] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=collect_aram_data, task_id=collect_aram_matches, run_id=scheduled__2024-11-19T00:00:00+00:00, execution_date=20241119T000000, start_date=20241120T102814, end_date=20241120T102814
+[2024-11-20T19:28:14.691+0900] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-20T19:28:14.691+0900] {standard_task_runner.py:124} ERROR - Failed to execute job 242 for task collect_aram_matches (403 Client Error: Forbidden for url: https://kr.api.riotgames.com/lol/summoner/v4/summoners/by-name/SummonerName; 2408907)
+Traceback (most recent call last):
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/laewon/airflow_test/dags/collect_ARM_data.py", line 52, in collect_aram_data
+    summoner_info = fetch_summoner_info(summoner_name)
+  File "/laewon/airflow_test/dags/collect_ARM_data.py", line 24, in fetch_summoner_info
+    response.raise_for_status()  # 실패 시 예외 발생
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://kr.api.riotgames.com/lol/summoner/v4/summoners/by-name/SummonerName
+[2024-11-20T19:28:14.702+0900] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-11-20T19:28:14.719+0900] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-20T19:28:14.720+0900] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-11-20T19:32:53.309+0900] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-20T19:32:53.322+0900] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: collect_aram_data.collect_aram_matches scheduled__2024-11-19T00:00:00+00:00 [queued]>
+[2024-11-20T19:32:53.328+0900] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: collect_aram_data.collect_aram_matches scheduled__2024-11-19T00:00:00+00:00 [queued]>
+[2024-11-20T19:32:53.328+0900] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-11-20T19:32:53.342+0900] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): collect_aram_matches> on 2024-11-19 00:00:00+00:00
+[2024-11-20T19:32:53.344+0900] {standard_task_runner.py:72} INFO - Started process 2410385 to run task
+[2024-11-20T19:32:53.347+0900] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'collect_aram_data', 'collect_aram_matches', 'scheduled__2024-11-19T00:00:00+00:00', '--job-id', '243', '--raw', '--subdir', 'DAGS_FOLDER/collect_ARM_data.py', '--cfg-path', '/tmp/tmp37kdzjqe']
+[2024-11-20T19:32:53.349+0900] {standard_task_runner.py:105} INFO - Job 243: Subtask collect_aram_matches
+[2024-11-20T19:32:53.387+0900] {task_command.py:467} INFO - Running <TaskInstance: collect_aram_data.collect_aram_matches scheduled__2024-11-19T00:00:00+00:00 [running]> on host MN
+[2024-11-20T19:32:53.452+0900] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='collect_aram_data' AIRFLOW_CTX_TASK_ID='collect_aram_matches' AIRFLOW_CTX_EXECUTION_DATE='2024-11-19T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-19T00:00:00+00:00'
+[2024-11-20T19:32:53.452+0900] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-20T19:32:53.739+0900] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/laewon/airflow_test/dags/collect_ARM_data.py", line 52, in collect_aram_data
+    summoner_info = fetch_summoner_info(summoner_name)
+  File "/laewon/airflow_test/dags/collect_ARM_data.py", line 24, in fetch_summoner_info
+    response.raise_for_status()  # 실패 시 예외 발생
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://kr.api.riotgames.com/lol/summoner/v4/summoners/by-name/SummonerName
+[2024-11-20T19:32:53.747+0900] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=collect_aram_data, task_id=collect_aram_matches, run_id=scheduled__2024-11-19T00:00:00+00:00, execution_date=20241119T000000, start_date=20241120T103253, end_date=20241120T103253
+[2024-11-20T19:32:53.766+0900] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-20T19:32:53.766+0900] {standard_task_runner.py:124} ERROR - Failed to execute job 243 for task collect_aram_matches (403 Client Error: Forbidden for url: https://kr.api.riotgames.com/lol/summoner/v4/summoners/by-name/SummonerName; 2410385)
+Traceback (most recent call last):
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/laewon/airflow_test/dags/collect_ARM_data.py", line 52, in collect_aram_data
+    summoner_info = fetch_summoner_info(summoner_name)
+  File "/laewon/airflow_test/dags/collect_ARM_data.py", line 24, in fetch_summoner_info
+    response.raise_for_status()  # 실패 시 예외 발생
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://kr.api.riotgames.com/lol/summoner/v4/summoners/by-name/SummonerName
+[2024-11-20T19:32:53.800+0900] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-11-20T19:32:53.818+0900] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-20T19:32:53.819+0900] {local_task_job_runner.py:245} INFO - ::endgroup::

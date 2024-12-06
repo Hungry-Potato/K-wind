@@ -1,0 +1,967 @@
+[2024-11-14T18:52:25.247+0900] {processor.py:186} INFO - Started process (PID=2366795) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:52:25.247+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T18:52:25.249+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:52:25.249+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:52:25.254+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:52:25.252+0900] {dagbag.py:387} ERROR - Failed to import: /laewon/airflow_test/dags/first_dag.py
+Traceback (most recent call last):
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/laewon/airflow_test/dags/first_dag.py", line 3, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2024-11-14T18:52:25.254+0900] {processor.py:927} WARNING - No viable dags retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:52:25.271+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.030 seconds
+[2024-11-14T18:52:56.385+0900] {processor.py:186} INFO - Started process (PID=2366854) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:52:56.386+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T18:52:56.388+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:52:56.388+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:52:56.392+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:52:56.391+0900] {dagbag.py:387} ERROR - Failed to import: /laewon/airflow_test/dags/first_dag.py
+Traceback (most recent call last):
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/laewon/airflow_test/dags/first_dag.py", line 3, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2024-11-14T18:52:56.393+0900] {processor.py:927} WARNING - No viable dags retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:52:56.412+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.034 seconds
+[2024-11-14T18:53:01.437+0900] {processor.py:186} INFO - Started process (PID=2366882) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:53:01.438+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T18:53:01.440+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:53:01.440+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:53:01.444+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:53:01.443+0900] {dagbag.py:387} ERROR - Failed to import: /laewon/airflow_test/dags/first_dag.py
+Traceback (most recent call last):
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/laewon/airflow_test/dags/first_dag.py", line 10, in <module>
+    with DAG(
+TypeError: __init__() got an unexpected keyword argument 'scheduler_interval'
+[2024-11-14T18:53:01.445+0900] {processor.py:927} WARNING - No viable dags retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:53:01.464+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.034 seconds
+[2024-11-14T18:53:30.680+0900] {processor.py:186} INFO - Started process (PID=2366944) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:53:30.681+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T18:53:30.683+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:53:30.682+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:53:30.687+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:53:30.686+0900] {dagbag.py:387} ERROR - Failed to import: /laewon/airflow_test/dags/first_dag.py
+Traceback (most recent call last):
+  File "/laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/laewon/airflow_test/dags/first_dag.py", line 10, in <module>
+    with DAG(
+TypeError: __init__() got an unexpected keyword argument 'schedulers_interval'
+[2024-11-14T18:53:30.687+0900] {processor.py:927} WARNING - No viable dags retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:53:30.706+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.034 seconds
+[2024-11-14T18:53:58.120+0900] {processor.py:186} INFO - Started process (PID=2367005) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:53:58.124+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T18:53:58.127+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:53:58.126+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:53:58.141+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:53:58.258+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:53:58.258+0900] {override.py:1901} INFO - Created Permission View: can delete on DAG:first_dag
+[2024-11-14T18:53:58.270+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:53:58.270+0900] {override.py:1901} INFO - Created Permission View: can edit on DAG:first_dag
+[2024-11-14T18:53:58.279+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:53:58.279+0900] {override.py:1901} INFO - Created Permission View: can read on DAG:first_dag
+[2024-11-14T18:53:58.293+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:53:58.292+0900] {override.py:1901} INFO - Created Permission View: can create on DAG Run:first_dag
+[2024-11-14T18:53:58.302+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:53:58.301+0900] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:first_dag
+[2024-11-14T18:53:58.311+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:53:58.310+0900] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:first_dag
+[2024-11-14T18:53:58.320+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:53:58.319+0900] {override.py:1901} INFO - Created Permission View: can read on DAG Run:first_dag
+[2024-11-14T18:53:58.320+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:53:58.320+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:53:58.333+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:53:58.333+0900] {dag.py:3262} INFO - Creating ORM DAG for first_dag
+[2024-11-14T18:53:58.342+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:53:58.342+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-13 00:00:00+00:00, run_after=2024-11-14 00:00:00+00:00
+[2024-11-14T18:53:58.364+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.250 seconds
+[2024-11-14T18:54:29.455+0900] {processor.py:186} INFO - Started process (PID=2367126) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:54:29.456+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T18:54:29.458+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:54:29.458+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:54:29.471+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:54:29.495+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:54:29.494+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:54:29.518+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:54:29.518+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-13 00:00:00+00:00, run_after=2024-11-14 00:00:00+00:00
+[2024-11-14T18:54:29.540+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.093 seconds
+[2024-11-14T18:55:00.061+0900] {processor.py:186} INFO - Started process (PID=2367287) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:55:00.065+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T18:55:00.067+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:55:00.067+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:55:00.082+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:55:00.105+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:55:00.104+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:55:00.128+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:55:00.128+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T18:55:00.151+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.097 seconds
+[2024-11-14T18:55:30.356+0900] {processor.py:186} INFO - Started process (PID=2367438) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:55:30.357+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T18:55:30.360+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:55:30.359+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:55:30.373+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:55:30.395+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:55:30.395+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:55:30.419+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:55:30.418+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T18:55:30.441+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.092 seconds
+[2024-11-14T18:55:46.857+0900] {processor.py:186} INFO - Started process (PID=2367469) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:55:46.858+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T18:55:46.861+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:55:46.861+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:55:46.874+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:55:46.897+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:55:46.897+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:55:46.920+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:55:46.920+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T18:55:46.943+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.093 seconds
+[2024-11-14T18:56:17.999+0900] {processor.py:186} INFO - Started process (PID=2367620) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:56:18.000+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T18:56:18.002+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:56:18.002+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:56:18.015+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:56:18.038+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:56:18.038+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:56:18.062+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:56:18.062+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T18:56:18.086+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.094 seconds
+[2024-11-14T18:56:48.113+0900] {processor.py:186} INFO - Started process (PID=2367741) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:56:48.117+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T18:56:48.120+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:56:48.119+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:56:48.133+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:56:48.156+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:56:48.155+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:56:48.181+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:56:48.181+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T18:56:48.204+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.099 seconds
+[2024-11-14T18:57:19.264+0900] {processor.py:186} INFO - Started process (PID=2367817) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:57:19.265+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T18:57:19.267+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:57:19.266+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:57:19.280+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:57:19.303+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:57:19.302+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:57:19.327+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:57:19.327+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T18:57:19.350+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.094 seconds
+[2024-11-14T18:57:49.379+0900] {processor.py:186} INFO - Started process (PID=2367950) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:57:49.384+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T18:57:49.386+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:57:49.385+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:57:49.399+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:57:49.423+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:57:49.423+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:57:49.447+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:57:49.447+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T18:57:49.470+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.097 seconds
+[2024-11-14T18:58:19.964+0900] {processor.py:186} INFO - Started process (PID=2368132) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:58:19.965+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T18:58:19.967+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:58:19.967+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:58:19.981+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:58:20.003+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:58:20.003+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:58:20.027+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:58:20.026+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T18:58:20.050+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.093 seconds
+[2024-11-14T18:58:50.363+0900] {processor.py:186} INFO - Started process (PID=2368165) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:58:50.367+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T18:58:50.370+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:58:50.369+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:58:50.383+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:58:50.406+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:58:50.406+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:58:50.430+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:58:50.429+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T18:58:50.452+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.097 seconds
+[2024-11-14T18:59:20.761+0900] {processor.py:186} INFO - Started process (PID=2368256) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:59:20.762+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T18:59:20.764+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:59:20.764+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:59:20.778+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:59:20.800+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:59:20.800+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:59:20.823+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:59:20.823+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T18:59:20.846+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.092 seconds
+[2024-11-14T18:59:50.874+0900] {processor.py:186} INFO - Started process (PID=2368408) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:59:50.878+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T18:59:50.881+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:59:50.881+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:59:50.895+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T18:59:50.917+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:59:50.917+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:59:50.941+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:59:50.941+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T18:59:50.965+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.098 seconds
+[2024-11-14T19:00:21.429+0900] {processor.py:186} INFO - Started process (PID=2368409) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:00:21.430+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:00:21.433+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:00:21.432+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:00:21.446+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:00:21.468+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:00:21.468+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:00:21.493+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:00:21.493+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T19:00:21.516+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.094 seconds
+[2024-11-14T19:00:51.831+0900] {processor.py:186} INFO - Started process (PID=2368410) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:00:51.836+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:00:51.838+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:00:51.837+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:00:51.851+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:00:51.874+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:00:51.873+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:00:51.898+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:00:51.898+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T19:00:51.921+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.098 seconds
+[2024-11-14T19:01:22.334+0900] {processor.py:186} INFO - Started process (PID=2368412) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:01:22.338+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:01:22.340+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:01:22.340+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:01:22.354+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:01:22.377+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:01:22.377+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:01:22.402+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:01:22.401+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T19:01:22.424+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.097 seconds
+[2024-11-14T19:01:52.841+0900] {processor.py:186} INFO - Started process (PID=2368413) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:01:52.843+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:01:52.845+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:01:52.844+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:01:52.858+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:01:52.880+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:01:52.880+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:01:52.904+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:01:52.904+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T19:01:52.926+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.093 seconds
+[2024-11-14T19:02:23.237+0900] {processor.py:186} INFO - Started process (PID=2368415) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:02:23.238+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:02:23.240+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:02:23.240+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:02:23.253+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:02:23.276+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:02:23.276+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:02:23.299+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:02:23.299+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T19:02:23.322+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.092 seconds
+[2024-11-14T19:02:53.636+0900] {processor.py:186} INFO - Started process (PID=2368443) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:02:53.640+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:02:53.643+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:02:53.642+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:02:53.656+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:02:53.679+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:02:53.678+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:02:53.703+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:02:53.702+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T19:02:53.725+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.096 seconds
+[2024-11-14T19:03:24.035+0900] {processor.py:186} INFO - Started process (PID=2368444) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:03:24.036+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:03:24.038+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:03:24.037+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:03:24.051+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:03:24.074+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:03:24.073+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:03:24.097+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:03:24.097+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T19:03:24.121+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.093 seconds
+[2024-11-14T19:03:54.429+0900] {processor.py:186} INFO - Started process (PID=2368447) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:03:54.430+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:03:54.434+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:03:54.434+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:03:54.448+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:03:54.470+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:03:54.470+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:03:54.494+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:03:54.493+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T19:03:54.517+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.095 seconds
+[2024-11-14T19:04:24.828+0900] {processor.py:186} INFO - Started process (PID=2368448) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:04:24.829+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:04:24.831+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:04:24.831+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:04:24.845+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:04:24.867+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:04:24.867+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:04:24.892+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:04:24.892+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T19:04:24.914+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.093 seconds
+[2024-11-14T19:04:55.218+0900] {processor.py:186} INFO - Started process (PID=2368449) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:04:55.219+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:04:55.223+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:04:55.222+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:04:55.236+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:04:55.258+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:04:55.258+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:04:55.283+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:04:55.283+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T19:04:55.305+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.095 seconds
+[2024-11-14T19:05:25.609+0900] {processor.py:186} INFO - Started process (PID=2368450) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:05:25.610+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:05:25.612+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:05:25.611+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:05:25.625+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:05:25.648+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:05:25.647+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:05:25.672+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:05:25.671+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T19:05:25.694+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.093 seconds
+[2024-11-14T19:05:56.010+0900] {processor.py:186} INFO - Started process (PID=2368451) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:05:56.011+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:05:56.016+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:05:56.015+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:05:56.029+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:05:56.051+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:05:56.051+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:05:56.075+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:05:56.075+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T19:05:56.098+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.094 seconds
+[2024-11-14T19:06:26.363+0900] {processor.py:186} INFO - Started process (PID=2368452) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:06:26.364+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:06:26.366+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:06:26.366+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:06:26.379+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:06:26.402+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:06:26.401+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:06:26.425+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:06:26.425+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T19:06:26.448+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.092 seconds
+[2024-11-14T19:06:56.757+0900] {processor.py:186} INFO - Started process (PID=2368454) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:06:56.761+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:06:56.764+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:06:56.763+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:06:56.777+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:06:56.800+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:06:56.799+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:06:56.823+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:06:56.823+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T19:06:56.846+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.096 seconds
+[2024-11-14T19:07:27.158+0900] {processor.py:186} INFO - Started process (PID=2368469) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:07:27.159+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:07:27.161+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:07:27.161+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:07:27.175+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:07:27.197+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:07:27.197+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:07:27.221+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:07:27.221+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T19:07:27.245+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.094 seconds
+[2024-11-14T19:07:57.415+0900] {processor.py:186} INFO - Started process (PID=2368483) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:07:57.416+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:07:57.418+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:07:57.418+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:07:57.431+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:07:57.454+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:07:57.453+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:07:57.478+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:07:57.478+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T19:07:57.501+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.093 seconds
+[2024-11-14T19:08:27.603+0900] {processor.py:186} INFO - Started process (PID=2368484) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:08:27.603+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:08:27.606+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:08:27.605+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:08:27.619+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:08:27.641+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:08:27.641+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:08:27.666+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:08:27.666+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T19:08:27.688+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.093 seconds
+[2024-11-14T19:08:57.782+0900] {processor.py:186} INFO - Started process (PID=2368486) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:08:57.783+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:08:57.786+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:08:57.785+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:08:57.799+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:08:57.821+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:08:57.821+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:08:57.845+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:08:57.845+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T19:08:57.868+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.093 seconds
+[2024-11-14T19:09:27.964+0900] {processor.py:186} INFO - Started process (PID=2368487) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:09:27.965+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:09:27.967+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:09:27.967+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:09:27.981+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:09:28.003+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:09:28.003+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:09:28.027+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:09:28.027+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T19:09:28.050+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.093 seconds
+[2024-11-14T19:09:58.115+0900] {processor.py:186} INFO - Started process (PID=2368490) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:09:58.119+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:09:58.122+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:09:58.121+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:09:58.135+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:09:58.157+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:09:58.157+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:09:58.181+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:09:58.180+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T19:09:58.203+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.096 seconds
+[2024-11-14T19:10:28.295+0900] {processor.py:186} INFO - Started process (PID=2368491) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:10:28.296+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:10:28.298+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:10:28.298+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:10:28.312+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:10:28.334+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:10:28.334+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:10:28.358+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:10:28.358+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T19:10:28.381+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.093 seconds
+[2024-11-14T19:10:58.418+0900] {processor.py:186} INFO - Started process (PID=2368492) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:10:58.422+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:10:58.424+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:10:58.423+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:10:58.437+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:10:58.460+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:10:58.460+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:10:58.484+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:10:58.484+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T19:10:58.506+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.097 seconds
+[2024-11-14T19:11:28.600+0900] {processor.py:186} INFO - Started process (PID=2368493) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:11:28.601+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:11:28.603+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:11:28.603+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:11:28.617+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:11:28.639+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:11:28.639+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:11:28.663+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:11:28.663+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T19:11:28.687+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.094 seconds
+[2024-11-14T19:11:58.782+0900] {processor.py:186} INFO - Started process (PID=2368494) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:11:58.786+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:11:58.789+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:11:58.788+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:11:58.802+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:11:58.825+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:11:58.825+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:11:58.850+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:11:58.849+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T19:11:58.873+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.098 seconds
+[2024-11-14T19:12:29.064+0900] {processor.py:186} INFO - Started process (PID=2368523) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:12:29.065+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:12:29.067+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:12:29.067+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:12:29.081+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:12:29.103+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:12:29.103+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:12:29.128+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:12:29.127+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T19:12:29.150+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.093 seconds
+[2024-11-14T19:12:59.246+0900] {processor.py:186} INFO - Started process (PID=2368525) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:12:59.247+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:12:59.249+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:12:59.249+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:12:59.263+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:12:59.285+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:12:59.285+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:12:59.309+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:12:59.309+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T19:12:59.332+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.094 seconds
+[2024-11-14T19:13:29.426+0900] {processor.py:186} INFO - Started process (PID=2368527) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:13:29.427+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:13:29.429+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:13:29.429+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:13:29.442+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:13:29.465+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:13:29.465+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:13:29.488+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:13:29.488+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T19:13:29.511+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.092 seconds
+[2024-11-14T19:13:59.605+0900] {processor.py:186} INFO - Started process (PID=2368529) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:13:59.609+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:13:59.611+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:13:59.611+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:13:59.625+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:13:59.647+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:13:59.647+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:13:59.671+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:13:59.671+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T19:13:59.694+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.097 seconds
+[2024-11-14T19:14:29.886+0900] {processor.py:186} INFO - Started process (PID=2368530) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:14:29.886+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:14:29.889+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:14:29.888+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:14:29.902+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:14:29.924+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:14:29.924+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:14:29.948+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:14:29.948+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T19:14:29.971+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.093 seconds
+[2024-11-14T19:15:00.065+0900] {processor.py:186} INFO - Started process (PID=2368531) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:15:00.066+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:15:00.068+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:15:00.068+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:15:00.081+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:15:00.104+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:15:00.103+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:15:00.127+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:15:00.127+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T19:15:00.151+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.094 seconds
+[2024-11-14T19:15:30.244+0900] {processor.py:186} INFO - Started process (PID=2368532) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:15:30.245+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:15:30.247+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:15:30.247+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:15:30.261+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:15:30.283+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:15:30.283+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:15:30.308+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:15:30.307+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T19:15:30.330+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.094 seconds
+[2024-11-14T19:16:00.423+0900] {processor.py:186} INFO - Started process (PID=2368534) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:16:00.427+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:16:00.429+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:16:00.429+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:16:00.442+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:16:00.465+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:16:00.465+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:16:00.490+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:16:00.490+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T19:16:00.513+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.098 seconds
+[2024-11-14T19:16:22.439+0900] {processor.py:186} INFO - Started process (PID=2368535) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:16:22.440+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:16:22.442+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:16:22.441+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:16:22.453+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:16:22.568+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:16:22.568+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:16:22.588+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:16:22.588+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 00:00:00+00:00, run_after=2024-11-14 00:01:00+00:00
+[2024-11-14T19:16:22.612+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.180 seconds
+[2024-11-14T19:16:59.896+0900] {processor.py:186} INFO - Started process (PID=2368929) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:16:59.900+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:16:59.902+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:16:59.901+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:16:59.912+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:17:00.024+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:17:00.023+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:17:00.045+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:17:00.044+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 07:00:00+00:00, run_after=2024-11-14 07:01:00+00:00
+[2024-11-14T19:17:00.070+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.180 seconds
+[2024-11-14T19:17:30.161+0900] {processor.py:186} INFO - Started process (PID=2369352) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:17:30.162+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:17:30.164+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:17:30.163+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:17:30.173+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:17:30.195+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:17:30.194+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:17:30.218+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:17:30.217+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 07:11:00+00:00, run_after=2024-11-14 07:12:00+00:00
+[2024-11-14T19:17:30.240+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.085 seconds
+[2024-11-14T19:18:01.274+0900] {processor.py:186} INFO - Started process (PID=2369741) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:18:01.278+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:18:01.280+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:18:01.280+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:18:01.291+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:18:01.315+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:18:01.314+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:18:01.339+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:18:01.338+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 07:22:00+00:00, run_after=2024-11-14 07:23:00+00:00
+[2024-11-14T19:18:01.362+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.095 seconds
+[2024-11-14T19:18:33.536+0900] {processor.py:186} INFO - Started process (PID=2370178) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:18:33.537+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:18:33.539+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:18:33.539+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:18:33.548+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:18:33.570+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:18:33.569+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:18:33.592+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:18:33.592+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 07:34:00+00:00, run_after=2024-11-14 07:35:00+00:00
+[2024-11-14T19:18:33.615+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.086 seconds
+[2024-11-14T19:19:03.648+0900] {processor.py:186} INFO - Started process (PID=2370597) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:19:03.652+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:19:03.655+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:19:03.654+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:19:03.664+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:19:03.685+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:19:03.685+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:19:03.708+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:19:03.708+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 07:45:00+00:00, run_after=2024-11-14 07:46:00+00:00
+[2024-11-14T19:19:03.731+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.089 seconds
+[2024-11-14T19:19:35.801+0900] {processor.py:186} INFO - Started process (PID=2370851) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:19:35.802+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:19:35.804+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:19:35.804+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:19:35.814+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:19:35.835+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:19:35.835+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:19:35.858+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:19:35.858+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 07:57:00+00:00, run_after=2024-11-14 07:58:00+00:00
+[2024-11-14T19:19:35.881+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.086 seconds
+[2024-11-14T19:20:06.894+0900] {processor.py:186} INFO - Started process (PID=2371178) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:20:06.899+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:20:06.902+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:20:06.901+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:20:06.913+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:20:06.936+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:20:06.936+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:20:06.959+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:20:06.959+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 08:08:00+00:00, run_after=2024-11-14 08:09:00+00:00
+[2024-11-14T19:20:06.983+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.095 seconds
+[2024-11-14T19:20:39.221+0900] {processor.py:186} INFO - Started process (PID=2371646) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:20:39.222+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:20:39.224+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:20:39.223+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:20:39.233+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:20:39.255+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:20:39.255+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:20:39.277+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:20:39.277+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 08:20:00+00:00, run_after=2024-11-14 08:21:00+00:00
+[2024-11-14T19:20:39.300+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.086 seconds
+[2024-11-14T19:21:10.333+0900] {processor.py:186} INFO - Started process (PID=2371956) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:21:10.337+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:21:10.340+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:21:10.339+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:21:10.350+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:21:10.375+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:21:10.374+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:21:10.397+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:21:10.397+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 08:31:00+00:00, run_after=2024-11-14 08:32:00+00:00
+[2024-11-14T19:21:10.421+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.095 seconds
+[2024-11-14T19:21:42.550+0900] {processor.py:186} INFO - Started process (PID=2372200) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:21:42.554+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:21:42.556+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:21:42.556+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:21:42.566+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:21:42.588+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:21:42.587+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:21:42.609+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:21:42.609+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 08:43:00+00:00, run_after=2024-11-14 08:44:00+00:00
+[2024-11-14T19:21:42.632+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.088 seconds
+[2024-11-14T19:22:13.019+0900] {processor.py:186} INFO - Started process (PID=2372458) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:22:13.020+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:22:13.023+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:22:13.022+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:22:13.033+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:22:13.056+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:22:13.056+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:22:13.079+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:22:13.078+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 08:54:00+00:00, run_after=2024-11-14 08:55:00+00:00
+[2024-11-14T19:22:13.101+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.089 seconds
+[2024-11-14T19:22:45.303+0900] {processor.py:186} INFO - Started process (PID=2372714) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:22:45.307+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:22:45.309+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:22:45.309+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:22:45.319+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:22:45.340+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:22:45.340+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:22:45.362+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:22:45.362+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 09:06:00+00:00, run_after=2024-11-14 09:07:00+00:00
+[2024-11-14T19:22:45.385+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.088 seconds
+[2024-11-14T19:23:17.471+0900] {processor.py:186} INFO - Started process (PID=2372955) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:23:17.471+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:23:17.473+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:23:17.473+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:23:17.483+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:23:17.504+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:23:17.504+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:23:17.526+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:23:17.526+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 09:18:00+00:00, run_after=2024-11-14 09:19:00+00:00
+[2024-11-14T19:23:17.550+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.085 seconds
+[2024-11-14T19:23:48.578+0900] {processor.py:186} INFO - Started process (PID=2373208) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:23:48.582+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:23:48.585+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:23:48.584+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:23:48.595+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:23:48.618+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:23:48.618+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:23:48.641+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:23:48.641+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 09:29:00+00:00, run_after=2024-11-14 09:30:00+00:00
+[2024-11-14T19:23:48.666+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.096 seconds
+[2024-11-14T19:24:20.888+0900] {processor.py:186} INFO - Started process (PID=2373464) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:24:20.892+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:24:20.895+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:24:20.894+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:24:20.904+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:24:20.925+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:24:20.925+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:24:20.947+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:24:20.947+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 09:41:00+00:00, run_after=2024-11-14 09:42:00+00:00
+[2024-11-14T19:24:20.971+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.089 seconds
+[2024-11-14T19:24:51.359+0900] {processor.py:186} INFO - Started process (PID=2373701) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:24:51.360+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:24:51.362+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:24:51.362+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:24:51.373+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:24:51.396+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:24:51.396+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:24:51.420+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:24:51.420+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 09:52:00+00:00, run_after=2024-11-14 09:53:00+00:00
+[2024-11-14T19:24:51.443+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.091 seconds
+[2024-11-14T19:25:23.130+0900] {processor.py:186} INFO - Started process (PID=2373960) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:25:23.131+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:25:23.133+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:25:23.132+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:25:23.142+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:25:23.164+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:25:23.163+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:25:23.186+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:25:23.186+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:04:00+00:00, run_after=2024-11-14 10:05:00+00:00
+[2024-11-14T19:25:23.209+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.086 seconds
+[2024-11-14T19:25:54.204+0900] {processor.py:186} INFO - Started process (PID=2374208) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:25:54.205+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:25:54.207+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:25:54.207+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:25:54.218+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:25:54.240+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:25:54.240+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:25:54.264+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:25:54.264+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:15:00+00:00, run_after=2024-11-14 10:16:00+00:00
+[2024-11-14T19:25:54.287+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.091 seconds
+[2024-11-14T19:26:25.333+0900] {processor.py:186} INFO - Started process (PID=2374446) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:26:25.337+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:26:25.340+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:26:25.339+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:26:25.351+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:26:25.374+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:26:25.373+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:26:25.397+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:26:25.397+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:26:00+00:00, run_after=2024-11-14 10:27:00+00:00
+[2024-11-14T19:26:25.421+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.095 seconds
+[2024-11-14T19:26:55.585+0900] {processor.py:186} INFO - Started process (PID=2374474) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:26:55.586+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:26:55.589+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:26:55.588+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:26:55.599+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:26:55.623+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:26:55.623+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:26:55.645+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:26:55.645+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:26:00+00:00, run_after=2024-11-14 10:27:00+00:00
+[2024-11-14T19:26:55.669+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.090 seconds
+[2024-11-14T19:27:25.880+0900] {processor.py:186} INFO - Started process (PID=2374535) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:27:25.884+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:27:25.886+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:27:25.886+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:27:25.897+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:27:25.920+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:27:25.920+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:27:25.943+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:27:25.943+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:27:00+00:00, run_after=2024-11-14 10:28:00+00:00
+[2024-11-14T19:27:25.966+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.094 seconds
+[2024-11-14T19:27:56.179+0900] {processor.py:186} INFO - Started process (PID=2374537) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:27:56.180+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:27:56.182+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:27:56.182+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:27:56.193+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:27:56.216+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:27:56.216+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:27:56.239+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:27:56.238+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:27:00+00:00, run_after=2024-11-14 10:28:00+00:00
+[2024-11-14T19:27:56.262+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.090 seconds
+[2024-11-14T19:28:26.458+0900] {processor.py:186} INFO - Started process (PID=2374601) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:28:26.462+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:28:26.465+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:28:26.465+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:28:26.476+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:28:26.499+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:28:26.499+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:28:26.522+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:28:26.521+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:28:00+00:00, run_after=2024-11-14 10:29:00+00:00
+[2024-11-14T19:28:26.544+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.093 seconds
+[2024-11-14T19:28:56.752+0900] {processor.py:186} INFO - Started process (PID=2374603) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:28:56.753+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:28:56.755+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:28:56.755+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:28:56.766+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:28:56.788+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:28:56.788+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:28:56.811+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:28:56.811+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:28:00+00:00, run_after=2024-11-14 10:29:00+00:00
+[2024-11-14T19:28:56.835+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.091 seconds
+[2024-11-14T19:29:27.010+0900] {processor.py:186} INFO - Started process (PID=2374817) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:29:27.014+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:29:27.016+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:29:27.016+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:29:27.028+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:29:27.051+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:29:27.050+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:29:27.075+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:29:27.074+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:29:00+00:00, run_after=2024-11-14 10:30:00+00:00
+[2024-11-14T19:29:27.097+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.094 seconds
+[2024-11-14T19:29:57.303+0900] {processor.py:186} INFO - Started process (PID=2374938) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:29:57.304+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:29:57.306+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:29:57.305+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:29:57.316+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:29:57.339+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:29:57.339+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:29:57.372+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:29:57.372+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:29:00+00:00, run_after=2024-11-14 10:30:00+00:00
+[2024-11-14T19:29:57.395+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.100 seconds
+[2024-11-14T19:30:28.262+0900] {processor.py:186} INFO - Started process (PID=2375002) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:30:28.266+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:30:28.268+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:30:28.268+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:30:28.279+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:30:28.302+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:30:28.302+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:30:28.325+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:30:28.325+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:30:00+00:00, run_after=2024-11-14 10:31:00+00:00
+[2024-11-14T19:30:28.349+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.094 seconds
+[2024-11-14T19:30:58.375+0900] {processor.py:186} INFO - Started process (PID=2375004) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:30:58.376+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:30:58.378+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:30:58.378+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:30:58.389+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:30:58.412+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:30:58.411+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:30:58.434+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:30:58.434+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:30:00+00:00, run_after=2024-11-14 10:31:00+00:00
+[2024-11-14T19:30:58.458+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.090 seconds
+[2024-11-14T19:31:28.485+0900] {processor.py:186} INFO - Started process (PID=2375068) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:31:28.489+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:31:28.492+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:31:28.492+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:31:28.503+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:31:28.526+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:31:28.526+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:31:28.549+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:31:28.549+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:31:00+00:00, run_after=2024-11-14 10:32:00+00:00
+[2024-11-14T19:31:28.572+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.094 seconds
+[2024-11-14T19:31:58.603+0900] {processor.py:186} INFO - Started process (PID=2375069) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:31:58.603+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:31:58.606+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:31:58.605+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:31:58.616+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:31:58.639+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:31:58.638+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:31:58.661+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:31:58.661+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:31:00+00:00, run_after=2024-11-14 10:32:00+00:00
+[2024-11-14T19:31:58.684+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.089 seconds
+[2024-11-14T19:32:28.717+0900] {processor.py:186} INFO - Started process (PID=2375131) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:32:28.721+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:32:28.724+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:32:28.723+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:32:28.734+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:32:28.757+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:32:28.757+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:32:28.779+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:32:28.779+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:32:00+00:00, run_after=2024-11-14 10:33:00+00:00
+[2024-11-14T19:32:28.804+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.094 seconds
+[2024-11-14T19:32:58.831+0900] {processor.py:186} INFO - Started process (PID=2375132) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:32:58.832+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:32:58.834+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:32:58.834+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:32:58.845+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:32:58.868+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:32:58.867+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:32:58.891+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:32:58.891+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:32:00+00:00, run_after=2024-11-14 10:33:00+00:00
+[2024-11-14T19:32:58.914+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.090 seconds
+[2024-11-14T19:33:28.944+0900] {processor.py:186} INFO - Started process (PID=2375197) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:33:28.948+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:33:28.951+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:33:28.951+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:33:28.962+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:33:28.985+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:33:28.984+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:33:29.008+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:33:29.008+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:33:00+00:00, run_after=2024-11-14 10:34:00+00:00
+[2024-11-14T19:33:29.032+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.095 seconds
+[2024-11-14T19:33:59.057+0900] {processor.py:186} INFO - Started process (PID=2375200) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:33:59.058+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:33:59.060+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:33:59.059+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:33:59.071+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:33:59.094+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:33:59.093+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:33:59.117+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:33:59.117+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:33:00+00:00, run_after=2024-11-14 10:34:00+00:00
+[2024-11-14T19:33:59.140+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.090 seconds
+[2024-11-14T19:34:29.175+0900] {processor.py:186} INFO - Started process (PID=2375264) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:34:29.179+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:34:29.182+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:34:29.181+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:34:29.192+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:34:29.216+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:34:29.216+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:34:29.239+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:34:29.239+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:34:00+00:00, run_after=2024-11-14 10:35:00+00:00
+[2024-11-14T19:34:29.262+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.094 seconds
+[2024-11-14T19:34:59.426+0900] {processor.py:186} INFO - Started process (PID=2375265) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:34:59.427+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:34:59.430+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:34:59.429+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:34:59.440+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:34:59.463+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:34:59.463+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:34:59.486+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:34:59.485+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:34:00+00:00, run_after=2024-11-14 10:35:00+00:00
+[2024-11-14T19:34:59.509+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.089 seconds
+[2024-11-14T19:35:29.860+0900] {processor.py:186} INFO - Started process (PID=2375329) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:35:29.861+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:35:29.863+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:35:29.863+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:35:29.874+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:35:29.897+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:35:29.896+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:35:29.919+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:35:29.919+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:35:00+00:00, run_after=2024-11-14 10:36:00+00:00
+[2024-11-14T19:35:29.942+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.090 seconds
+[2024-11-14T19:36:00.178+0900] {processor.py:186} INFO - Started process (PID=2375330) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:36:00.182+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:36:00.185+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:36:00.184+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:36:00.196+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:36:00.219+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:36:00.219+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:36:00.242+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:36:00.242+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:35:00+00:00, run_after=2024-11-14 10:36:00+00:00
+[2024-11-14T19:36:00.265+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.094 seconds
+[2024-11-14T19:36:30.473+0900] {processor.py:186} INFO - Started process (PID=2375394) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:36:30.474+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:36:30.476+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:36:30.476+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:36:30.487+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:36:30.509+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:36:30.508+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:36:30.531+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:36:30.531+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:36:00+00:00, run_after=2024-11-14 10:37:00+00:00
+[2024-11-14T19:36:30.555+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.089 seconds
+[2024-11-14T19:37:00.773+0900] {processor.py:186} INFO - Started process (PID=2375396) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:37:00.777+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:37:00.780+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:37:00.779+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:37:00.791+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:37:00.814+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:37:00.814+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:37:00.838+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:37:00.838+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:36:00+00:00, run_after=2024-11-14 10:37:00+00:00
+[2024-11-14T19:37:00.861+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.095 seconds
+[2024-11-14T19:37:31.031+0900] {processor.py:186} INFO - Started process (PID=2375460) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:37:31.032+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:37:31.035+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:37:31.034+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:37:31.045+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:37:31.068+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:37:31.067+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:37:31.091+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:37:31.091+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:37:00+00:00, run_after=2024-11-14 10:38:00+00:00
+[2024-11-14T19:37:31.114+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.091 seconds
+[2024-11-14T19:38:01.320+0900] {processor.py:186} INFO - Started process (PID=2375461) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:38:01.324+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:38:01.326+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:38:01.326+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:38:01.337+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:38:01.361+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:38:01.360+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:38:01.383+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:38:01.383+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:37:00+00:00, run_after=2024-11-14 10:38:00+00:00
+[2024-11-14T19:38:01.406+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.094 seconds
+[2024-11-14T19:38:31.617+0900] {processor.py:186} INFO - Started process (PID=2375525) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:38:31.618+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:38:31.620+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:38:31.620+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:38:31.631+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:38:31.654+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:38:31.653+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:38:31.676+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:38:31.676+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:38:00+00:00, run_after=2024-11-14 10:39:00+00:00
+[2024-11-14T19:38:31.699+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.089 seconds
+[2024-11-14T19:39:01.916+0900] {processor.py:186} INFO - Started process (PID=2375527) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:39:01.920+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:39:01.922+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:39:01.921+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:39:01.933+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:39:01.956+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:39:01.956+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:39:01.979+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:39:01.978+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:38:00+00:00, run_after=2024-11-14 10:39:00+00:00
+[2024-11-14T19:39:02.002+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.093 seconds
+[2024-11-14T19:39:32.200+0900] {processor.py:186} INFO - Started process (PID=2375591) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:39:32.201+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:39:32.203+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:39:32.203+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:39:32.214+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:39:32.236+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:39:32.236+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:39:32.259+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:39:32.259+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:39:00+00:00, run_after=2024-11-14 10:40:00+00:00
+[2024-11-14T19:39:32.281+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.089 seconds
+[2024-11-14T19:40:03.708+0900] {processor.py:186} INFO - Started process (PID=2375629) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:40:03.709+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:40:03.711+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:40:03.710+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:40:03.721+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:40:03.742+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:40:03.741+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:40:03.763+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:40:03.763+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:40:00+00:00, run_after=2024-11-14 10:41:00+00:00
+[2024-11-14T19:40:03.787+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.086 seconds
+[2024-11-14T19:40:33.956+0900] {processor.py:186} INFO - Started process (PID=2375657) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:40:33.957+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:40:33.959+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:40:33.959+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:40:33.970+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:40:33.993+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:40:33.992+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:40:34.016+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:40:34.016+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:40:00+00:00, run_after=2024-11-14 10:41:00+00:00
+[2024-11-14T19:40:34.039+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.091 seconds
+[2024-11-14T19:41:04.356+0900] {processor.py:186} INFO - Started process (PID=2375694) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:41:04.360+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:41:04.362+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:41:04.362+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:41:04.374+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:41:04.397+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:41:04.396+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:41:04.420+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:41:04.420+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:41:00+00:00, run_after=2024-11-14 10:42:00+00:00
+[2024-11-14T19:41:04.444+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.095 seconds
+[2024-11-14T19:41:34.746+0900] {processor.py:186} INFO - Started process (PID=2375722) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:41:34.747+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:41:34.749+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:41:34.749+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:41:34.760+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:41:34.782+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:41:34.782+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:41:34.805+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:41:34.805+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:41:00+00:00, run_after=2024-11-14 10:42:00+00:00
+[2024-11-14T19:41:34.828+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.090 seconds
+[2024-11-14T19:42:05.144+0900] {processor.py:186} INFO - Started process (PID=2375761) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:42:05.148+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:42:05.150+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:42:05.150+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:42:05.161+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:42:05.185+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:42:05.184+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:42:05.207+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:42:05.207+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:42:00+00:00, run_after=2024-11-14 10:43:00+00:00
+[2024-11-14T19:42:05.230+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.094 seconds
+[2024-11-14T19:42:35.546+0900] {processor.py:186} INFO - Started process (PID=2375789) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:42:35.547+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:42:35.549+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:42:35.549+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:42:35.559+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:42:35.582+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:42:35.582+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:42:35.604+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:42:35.604+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:42:00+00:00, run_after=2024-11-14 10:43:00+00:00
+[2024-11-14T19:42:35.627+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.089 seconds
+[2024-11-14T19:43:05.946+0900] {processor.py:186} INFO - Started process (PID=2375827) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:43:05.950+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:43:05.952+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:43:05.951+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:43:05.963+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:43:05.986+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:43:05.986+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:43:06.009+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:43:06.009+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:43:00+00:00, run_after=2024-11-14 10:44:00+00:00
+[2024-11-14T19:43:06.032+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.093 seconds
+[2024-11-14T19:43:36.327+0900] {processor.py:186} INFO - Started process (PID=2375855) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:43:36.327+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:43:36.330+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:43:36.329+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:43:36.340+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:43:36.363+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:43:36.362+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:43:36.385+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:43:36.385+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:43:00+00:00, run_after=2024-11-14 10:44:00+00:00
+[2024-11-14T19:43:36.408+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.089 seconds
+[2024-11-14T19:44:06.667+0900] {processor.py:186} INFO - Started process (PID=2375893) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:44:06.671+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:44:06.674+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:44:06.673+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:44:06.685+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:44:06.708+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:44:06.707+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:44:06.730+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:44:06.730+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:44:00+00:00, run_after=2024-11-14 10:45:00+00:00
+[2024-11-14T19:44:06.755+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.095 seconds
+[2024-11-14T19:44:36.833+0900] {processor.py:186} INFO - Started process (PID=2375921) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:44:36.834+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:44:36.836+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:44:36.836+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:44:36.847+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:44:36.869+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:44:36.869+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:44:36.893+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:44:36.893+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:44:00+00:00, run_after=2024-11-14 10:45:00+00:00
+[2024-11-14T19:44:36.916+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.090 seconds
+[2024-11-14T19:45:07.014+0900] {processor.py:186} INFO - Started process (PID=2375958) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:45:07.017+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:45:07.020+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:45:07.019+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:45:07.031+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:45:07.054+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:45:07.054+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:45:07.077+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:45:07.077+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:45:00+00:00, run_after=2024-11-14 10:46:00+00:00
+[2024-11-14T19:45:07.101+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.094 seconds
+[2024-11-14T19:45:37.198+0900] {processor.py:186} INFO - Started process (PID=2375986) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:45:37.198+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:45:37.201+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:45:37.200+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:45:37.211+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:45:37.234+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:45:37.233+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:45:37.257+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:45:37.256+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:45:00+00:00, run_after=2024-11-14 10:46:00+00:00
+[2024-11-14T19:45:37.279+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.090 seconds
+[2024-11-14T19:46:07.377+0900] {processor.py:186} INFO - Started process (PID=2376024) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:46:07.381+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:46:07.383+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:46:07.383+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:46:07.395+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:46:07.418+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:46:07.418+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:46:07.441+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:46:07.440+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:46:00+00:00, run_after=2024-11-14 10:47:00+00:00
+[2024-11-14T19:46:07.464+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.094 seconds
+[2024-11-14T19:46:37.559+0900] {processor.py:186} INFO - Started process (PID=2376052) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:46:37.560+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:46:37.563+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:46:37.562+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:46:37.573+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:46:37.596+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:46:37.595+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:46:37.618+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:46:37.618+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:46:00+00:00, run_after=2024-11-14 10:47:00+00:00
+[2024-11-14T19:46:37.642+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.090 seconds
+[2024-11-14T19:47:07.738+0900] {processor.py:186} INFO - Started process (PID=2376103) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:47:07.742+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:47:07.744+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:47:07.744+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:47:07.756+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:47:07.779+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:47:07.778+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:47:07.801+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:47:07.801+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:47:00+00:00, run_after=2024-11-14 10:48:00+00:00
+[2024-11-14T19:47:07.825+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.094 seconds
+[2024-11-14T19:47:37.919+0900] {processor.py:186} INFO - Started process (PID=2376117) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:47:37.920+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:47:37.922+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:47:37.921+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:47:37.932+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:47:37.955+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:47:37.955+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:47:37.977+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:47:37.977+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:47:00+00:00, run_after=2024-11-14 10:48:00+00:00
+[2024-11-14T19:47:38.002+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.090 seconds
+[2024-11-14T19:48:08.098+0900] {processor.py:186} INFO - Started process (PID=2376169) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:48:08.102+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:48:08.105+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:48:08.104+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:48:08.116+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:48:08.139+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:48:08.138+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:48:08.162+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:48:08.162+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:48:00+00:00, run_after=2024-11-14 10:49:00+00:00
+[2024-11-14T19:48:08.185+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.095 seconds
+[2024-11-14T19:48:38.258+0900] {processor.py:186} INFO - Started process (PID=2376183) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:48:38.259+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:48:38.262+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:48:38.261+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:48:38.272+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:48:38.295+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:48:38.295+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:48:38.318+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:48:38.318+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:48:00+00:00, run_after=2024-11-14 10:49:00+00:00
+[2024-11-14T19:48:38.341+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.090 seconds
+[2024-11-14T19:49:08.440+0900] {processor.py:186} INFO - Started process (PID=2376236) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:49:08.444+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:49:08.447+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:49:08.446+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:49:08.458+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:49:08.481+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:49:08.480+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:49:08.504+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:49:08.504+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:49:00+00:00, run_after=2024-11-14 10:50:00+00:00
+[2024-11-14T19:49:08.527+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.094 seconds
+[2024-11-14T19:49:38.623+0900] {processor.py:186} INFO - Started process (PID=2376250) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:49:38.624+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:49:38.626+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:49:38.626+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:49:38.637+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:49:38.660+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:49:38.660+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:49:38.683+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:49:38.682+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:49:00+00:00, run_after=2024-11-14 10:50:00+00:00
+[2024-11-14T19:49:38.706+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.090 seconds
+[2024-11-14T19:50:08.802+0900] {processor.py:186} INFO - Started process (PID=2376314) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:50:08.806+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:50:08.809+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:50:08.809+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:50:08.820+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:50:08.842+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:50:08.842+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:50:08.865+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:50:08.865+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:50:00+00:00, run_after=2024-11-14 10:51:00+00:00
+[2024-11-14T19:50:08.888+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.093 seconds
+[2024-11-14T19:50:38.982+0900] {processor.py:186} INFO - Started process (PID=2376315) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:50:38.983+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:50:38.985+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:50:38.985+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:50:38.996+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:50:39.018+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:50:39.018+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:50:39.041+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:50:39.041+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:50:00+00:00, run_after=2024-11-14 10:51:00+00:00
+[2024-11-14T19:50:39.064+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.089 seconds
+[2024-11-14T19:51:09.168+0900] {processor.py:186} INFO - Started process (PID=2376379) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:51:09.172+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:51:09.176+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:51:09.176+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:51:09.187+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:51:09.209+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:51:09.208+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:51:09.231+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:51:09.231+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:51:00+00:00, run_after=2024-11-14 10:52:00+00:00
+[2024-11-14T19:51:09.253+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.096 seconds
+[2024-11-14T19:51:39.445+0900] {processor.py:186} INFO - Started process (PID=2376380) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:51:39.446+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:51:39.448+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:51:39.448+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:51:39.459+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:51:39.482+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:51:39.481+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:51:39.504+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:51:39.504+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:51:00+00:00, run_after=2024-11-14 10:52:00+00:00
+[2024-11-14T19:51:39.528+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.090 seconds
+[2024-11-14T19:52:09.624+0900] {processor.py:186} INFO - Started process (PID=2376456) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:52:09.628+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:52:09.631+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:52:09.630+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:52:09.641+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:52:09.664+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:52:09.664+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:52:09.687+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:52:09.687+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:52:00+00:00, run_after=2024-11-14 10:53:00+00:00
+[2024-11-14T19:52:09.710+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.093 seconds
+[2024-11-14T19:52:39.805+0900] {processor.py:186} INFO - Started process (PID=2376457) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:52:39.805+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:52:39.808+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:52:39.807+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:52:39.819+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:52:39.841+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:52:39.841+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:52:39.864+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:52:39.864+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:52:00+00:00, run_after=2024-11-14 10:53:00+00:00
+[2024-11-14T19:52:39.887+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.090 seconds
+[2024-11-14T19:53:09.985+0900] {processor.py:186} INFO - Started process (PID=2376522) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:53:09.986+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:53:09.989+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:53:09.989+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:53:10.000+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:53:10.023+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:53:10.022+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:53:10.045+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:53:10.045+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:53:00+00:00, run_after=2024-11-14 10:54:00+00:00
+[2024-11-14T19:53:10.068+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.090 seconds
+[2024-11-14T19:53:40.167+0900] {processor.py:186} INFO - Started process (PID=2376523) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:53:40.167+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:53:40.170+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:53:40.169+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:53:40.180+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:53:40.203+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:53:40.203+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:53:40.226+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:53:40.225+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:53:00+00:00, run_after=2024-11-14 10:54:00+00:00
+[2024-11-14T19:53:40.248+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.089 seconds
+[2024-11-14T19:54:10.347+0900] {processor.py:186} INFO - Started process (PID=2376588) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:54:10.351+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:54:10.354+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:54:10.354+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:54:10.365+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:54:10.388+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:54:10.387+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:54:10.410+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:54:10.410+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:54:00+00:00, run_after=2024-11-14 10:55:00+00:00
+[2024-11-14T19:54:10.433+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.093 seconds
+[2024-11-14T19:54:40.528+0900] {processor.py:186} INFO - Started process (PID=2376589) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:54:40.529+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:54:40.531+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:54:40.531+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:54:40.542+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:54:40.565+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:54:40.564+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:54:40.587+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:54:40.587+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:54:00+00:00, run_after=2024-11-14 10:55:00+00:00
+[2024-11-14T19:54:40.610+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.089 seconds
+[2024-11-14T19:55:10.707+0900] {processor.py:186} INFO - Started process (PID=2376596) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:55:10.711+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:55:10.714+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:55:10.714+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:55:10.725+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:55:10.748+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:55:10.747+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:55:10.770+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:55:10.770+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:55:00+00:00, run_after=2024-11-14 10:56:00+00:00
+[2024-11-14T19:55:10.795+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.094 seconds
+[2024-11-14T19:55:40.888+0900] {processor.py:186} INFO - Started process (PID=2376597) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:55:40.889+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:55:40.892+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:55:40.891+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:55:40.902+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:55:40.925+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:55:40.925+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:55:40.948+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:55:40.948+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:55:00+00:00, run_after=2024-11-14 10:56:00+00:00
+[2024-11-14T19:55:40.971+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.090 seconds
+[2024-11-14T19:56:11.067+0900] {processor.py:186} INFO - Started process (PID=2376604) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:56:11.071+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:56:11.074+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:56:11.073+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:56:11.084+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:56:11.107+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:56:11.107+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:56:11.131+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:56:11.130+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:56:00+00:00, run_after=2024-11-14 10:57:00+00:00
+[2024-11-14T19:56:11.154+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.094 seconds
+[2024-11-14T19:56:41.248+0900] {processor.py:186} INFO - Started process (PID=2376605) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:56:41.249+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T19:56:41.251+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:56:41.251+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:56:41.262+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T19:56:41.284+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:56:41.284+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:56:41.307+0900] {logging_mixin.py:190} INFO - [2024-11-14T19:56:41.307+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:56:00+00:00, run_after=2024-11-14 10:57:00+00:00
+[2024-11-14T19:56:41.330+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.089 seconds
+[2024-11-14T21:09:20.442+0900] {processor.py:186} INFO - Started process (PID=2377102) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T21:09:20.446+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T21:09:20.448+0900] {logging_mixin.py:190} INFO - [2024-11-14T21:09:20.447+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T21:09:20.454+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T21:09:20.478+0900] {logging_mixin.py:190} INFO - [2024-11-14T21:09:20.477+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T21:09:20.498+0900] {logging_mixin.py:190} INFO - [2024-11-14T21:09:20.497+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 10:57:00+00:00, run_after=2024-11-14 10:58:00+00:00
+[2024-11-14T21:09:20.517+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.082 seconds
+[2024-11-14T21:09:52.764+0900] {processor.py:186} INFO - Started process (PID=2377530) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T21:09:52.765+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T21:09:52.766+0900] {logging_mixin.py:190} INFO - [2024-11-14T21:09:52.765+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T21:09:52.772+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T21:09:52.794+0900] {logging_mixin.py:190} INFO - [2024-11-14T21:09:52.793+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T21:09:52.813+0900] {logging_mixin.py:190} INFO - [2024-11-14T21:09:52.812+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 11:09:00+00:00, run_after=2024-11-14 11:10:00+00:00
+[2024-11-14T21:09:52.831+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.074 seconds
+[2024-11-14T21:10:23.878+0900] {processor.py:186} INFO - Started process (PID=2377848) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T21:10:23.882+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T21:10:23.883+0900] {logging_mixin.py:190} INFO - [2024-11-14T21:10:23.883+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T21:10:23.890+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T21:10:23.914+0900] {logging_mixin.py:190} INFO - [2024-11-14T21:10:23.914+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T21:10:23.935+0900] {logging_mixin.py:190} INFO - [2024-11-14T21:10:23.934+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 11:20:00+00:00, run_after=2024-11-14 11:21:00+00:00
+[2024-11-14T21:10:23.954+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.083 seconds
+[2024-11-14T21:10:56.188+0900] {processor.py:186} INFO - Started process (PID=2378138) to work on /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T21:10:56.192+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/dags/first_dag.py for tasks to queue
+[2024-11-14T21:10:56.193+0900] {logging_mixin.py:190} INFO - [2024-11-14T21:10:56.193+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T21:10:56.199+0900] {processor.py:925} INFO - DAG(s) 'first_dag' retrieved from /laewon/airflow_test/dags/first_dag.py
+[2024-11-14T21:10:56.221+0900] {logging_mixin.py:190} INFO - [2024-11-14T21:10:56.220+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T21:10:56.240+0900] {logging_mixin.py:190} INFO - [2024-11-14T21:10:56.240+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dag to 2024-11-14 11:32:00+00:00, run_after=2024-11-14 11:33:00+00:00
+[2024-11-14T21:10:56.259+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/dags/first_dag.py took 0.078 seconds

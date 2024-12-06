@@ -1,0 +1,43 @@
+[2024-11-14T18:40:20.320+0900] {processor.py:186} INFO - Started process (PID=2365503) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-11-14T18:40:20.321+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-11-14T18:40:20.324+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:20.323+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-11-14T18:40:20.335+0900] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-11-14T18:40:20.448+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:20.448+0900] {override.py:1901} INFO - Created Permission View: can edit on DAG:example_branch_labels
+[2024-11-14T18:40:20.461+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:20.460+0900] {override.py:1901} INFO - Created Permission View: can delete on DAG:example_branch_labels
+[2024-11-14T18:40:20.470+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:20.469+0900] {override.py:1901} INFO - Created Permission View: can read on DAG:example_branch_labels
+[2024-11-14T18:40:20.483+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:20.483+0900] {override.py:1901} INFO - Created Permission View: can create on DAG Run:example_branch_labels
+[2024-11-14T18:40:20.492+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:20.492+0900] {override.py:1901} INFO - Created Permission View: can read on DAG Run:example_branch_labels
+[2024-11-14T18:40:20.501+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:20.501+0900] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:example_branch_labels
+[2024-11-14T18:40:20.511+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:20.510+0900] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:example_branch_labels
+[2024-11-14T18:40:20.511+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:20.511+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:40:20.526+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:20.525+0900] {dag.py:3262} INFO - Creating ORM DAG for example_branch_labels
+[2024-11-14T18:40:20.536+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:20.536+0900] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2024-11-13 00:00:00+00:00, run_after=2024-11-14 00:00:00+00:00
+[2024-11-14T18:40:20.555+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.241 seconds
+[2024-11-14T18:41:46.330+0900] {processor.py:186} INFO - Started process (PID=2366072) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-11-14T18:41:46.334+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-11-14T18:41:46.336+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:41:46.336+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-11-14T18:41:46.348+0900] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-11-14T18:41:46.366+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:41:46.366+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:41:46.390+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:41:46.390+0900] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2024-11-13 00:00:00+00:00, run_after=2024-11-14 00:00:00+00:00
+[2024-11-14T18:41:46.414+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.091 seconds
+[2024-11-14T18:43:02.703+0900] {processor.py:186} INFO - Started process (PID=2366364) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-11-14T18:43:02.707+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-11-14T18:43:02.710+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:43:02.710+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-11-14T18:43:02.721+0900] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-11-14T18:43:02.740+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:43:02.739+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:43:02.765+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:43:02.764+0900] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2024-11-13 00:00:00+00:00, run_after=2024-11-14 00:00:00+00:00
+[2024-11-14T18:43:02.788+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.092 seconds
+[2024-11-14T18:44:20.259+0900] {processor.py:186} INFO - Started process (PID=2366474) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-11-14T18:44:20.263+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-11-14T18:44:20.266+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:44:20.265+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-11-14T18:44:20.277+0900] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-11-14T18:44:20.296+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:44:20.295+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:44:20.320+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:44:20.320+0900] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2024-11-13 00:00:00+00:00, run_after=2024-11-14 00:00:00+00:00
+[2024-11-14T18:44:20.344+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.091 seconds
+[2024-11-14T18:45:37.694+0900] {processor.py:186} INFO - Started process (PID=2366555) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-11-14T18:45:37.698+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-11-14T18:45:37.700+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:45:37.699+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-11-14T18:45:37.712+0900] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-11-14T18:45:37.730+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:45:37.730+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:45:37.754+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:45:37.754+0900] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2024-11-13 00:00:00+00:00, run_after=2024-11-14 00:00:00+00:00
+[2024-11-14T18:45:37.778+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.091 seconds

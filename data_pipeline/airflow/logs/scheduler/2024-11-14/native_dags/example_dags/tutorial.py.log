@@ -1,0 +1,57 @@
+[2024-11-14T18:39:43.683+0900] {processor.py:186} INFO - Started process (PID=2365351) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2024-11-14T18:39:43.684+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-14T18:39:43.686+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:43.686+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2024-11-14T18:39:43.695+0900] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2024-11-14T18:39:43.811+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:43.810+0900] {override.py:1901} INFO - Created Permission View: can edit on DAG:tutorial
+[2024-11-14T18:39:43.823+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:43.823+0900] {override.py:1901} INFO - Created Permission View: can delete on DAG:tutorial
+[2024-11-14T18:39:43.832+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:43.832+0900] {override.py:1901} INFO - Created Permission View: can read on DAG:tutorial
+[2024-11-14T18:39:43.846+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:43.845+0900] {override.py:1901} INFO - Created Permission View: can create on DAG Run:tutorial
+[2024-11-14T18:39:43.855+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:43.854+0900] {override.py:1901} INFO - Created Permission View: can read on DAG Run:tutorial
+[2024-11-14T18:39:43.864+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:43.864+0900] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:tutorial
+[2024-11-14T18:39:43.873+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:43.873+0900] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:tutorial
+[2024-11-14T18:39:43.874+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:43.873+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:39:43.887+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:43.887+0900] {dag.py:3262} INFO - Creating ORM DAG for tutorial
+[2024-11-14T18:39:43.896+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:43.895+0900] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-13 00:00:00+00:00, run_after=2024-11-14 00:00:00+00:00
+[2024-11-14T18:39:43.915+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.240 seconds
+[2024-11-14T18:41:02.699+0900] {processor.py:186} INFO - Started process (PID=2365880) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2024-11-14T18:41:02.703+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-14T18:41:02.706+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:41:02.706+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2024-11-14T18:41:02.715+0900] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2024-11-14T18:41:02.733+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:41:02.732+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:41:02.756+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:41:02.756+0900] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-13 00:00:00+00:00, run_after=2024-11-14 00:00:00+00:00
+[2024-11-14T18:41:02.781+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.088 seconds
+[2024-11-14T18:42:04.373+0900] {processor.py:186} INFO - Started process (PID=2366168) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2024-11-14T18:42:04.377+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-14T18:42:04.380+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:42:04.379+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2024-11-14T18:42:04.389+0900] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2024-11-14T18:42:04.406+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:42:04.405+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:42:04.429+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:42:04.429+0900] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-13 00:00:00+00:00, run_after=2024-11-14 00:00:00+00:00
+[2024-11-14T18:42:04.452+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.085 seconds
+[2024-11-14T18:42:56.230+0900] {processor.py:186} INFO - Started process (PID=2366357) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2024-11-14T18:42:56.231+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-14T18:42:56.233+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:42:56.233+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2024-11-14T18:42:56.243+0900] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2024-11-14T18:42:56.259+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:42:56.259+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:42:56.283+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:42:56.283+0900] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-13 00:00:00+00:00, run_after=2024-11-14 00:00:00+00:00
+[2024-11-14T18:42:56.304+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.081 seconds
+[2024-11-14T18:43:48.068+0900] {processor.py:186} INFO - Started process (PID=2366411) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2024-11-14T18:43:48.073+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-14T18:43:48.075+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:43:48.074+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2024-11-14T18:43:48.084+0900] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2024-11-14T18:43:48.101+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:43:48.101+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:43:48.125+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:43:48.124+0900] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-13 00:00:00+00:00, run_after=2024-11-14 00:00:00+00:00
+[2024-11-14T18:43:48.151+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.089 seconds
+[2024-11-14T18:44:39.567+0900] {processor.py:186} INFO - Started process (PID=2366494) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2024-11-14T18:44:39.571+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-14T18:44:39.574+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:44:39.573+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2024-11-14T18:44:39.583+0900] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2024-11-14T18:44:39.600+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:44:39.599+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:44:39.622+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:44:39.622+0900] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-13 00:00:00+00:00, run_after=2024-11-14 00:00:00+00:00
+[2024-11-14T18:44:39.644+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.084 seconds
+[2024-11-14T18:45:30.715+0900] {processor.py:186} INFO - Started process (PID=2366546) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2024-11-14T18:45:30.720+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-14T18:45:30.722+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:45:30.721+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2024-11-14T18:45:30.731+0900] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2024-11-14T18:45:30.748+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:45:30.748+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:45:30.771+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:45:30.771+0900] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-13 00:00:00+00:00, run_after=2024-11-14 00:00:00+00:00
+[2024-11-14T18:45:30.794+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.086 seconds

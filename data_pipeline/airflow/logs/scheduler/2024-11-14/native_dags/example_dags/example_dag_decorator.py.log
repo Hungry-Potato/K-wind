@@ -1,0 +1,43 @@
+[2024-11-14T18:40:15.533+0900] {processor.py:186} INFO - Started process (PID=2365498) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-11-14T18:40:15.534+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-11-14T18:40:15.536+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:15.536+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-11-14T18:40:15.550+0900] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-11-14T18:40:15.667+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:15.666+0900] {override.py:1901} INFO - Created Permission View: can edit on DAG:example_dag_decorator
+[2024-11-14T18:40:15.679+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:15.679+0900] {override.py:1901} INFO - Created Permission View: can delete on DAG:example_dag_decorator
+[2024-11-14T18:40:15.688+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:15.688+0900] {override.py:1901} INFO - Created Permission View: can read on DAG:example_dag_decorator
+[2024-11-14T18:40:15.702+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:15.702+0900] {override.py:1901} INFO - Created Permission View: can create on DAG Run:example_dag_decorator
+[2024-11-14T18:40:15.711+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:15.711+0900] {override.py:1901} INFO - Created Permission View: can read on DAG Run:example_dag_decorator
+[2024-11-14T18:40:15.720+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:15.720+0900] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:example_dag_decorator
+[2024-11-14T18:40:15.729+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:15.729+0900] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:example_dag_decorator
+[2024-11-14T18:40:15.730+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:15.729+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:40:15.744+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:15.744+0900] {dag.py:3262} INFO - Creating ORM DAG for example_dag_decorator
+[2024-11-14T18:40:15.745+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:15.745+0900] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-11-14T18:40:15.765+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.239 seconds
+[2024-11-14T18:41:41.276+0900] {processor.py:186} INFO - Started process (PID=2366067) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-11-14T18:41:41.280+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-11-14T18:41:41.283+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:41:41.282+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-11-14T18:41:41.296+0900] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-11-14T18:41:41.410+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:41:41.410+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:41:41.423+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:41:41.423+0900] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-11-14T18:41:41.447+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.178 seconds
+[2024-11-14T18:42:35.780+0900] {processor.py:186} INFO - Started process (PID=2366335) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-11-14T18:42:35.784+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-11-14T18:42:35.786+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:42:35.786+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-11-14T18:42:35.800+0900] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-11-14T18:42:35.914+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:42:35.913+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:42:35.926+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:42:35.925+0900] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-11-14T18:42:35.951+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.178 seconds
+[2024-11-14T18:43:31.073+0900] {processor.py:186} INFO - Started process (PID=2366394) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-11-14T18:43:31.077+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-11-14T18:43:31.079+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:43:31.079+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-11-14T18:43:31.093+0900] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-11-14T18:43:31.207+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:43:31.207+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:43:31.219+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:43:31.219+0900] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-11-14T18:43:31.243+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.177 seconds
+[2024-11-14T18:44:47.935+0900] {processor.py:186} INFO - Started process (PID=2366503) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-11-14T18:44:47.940+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-11-14T18:44:47.942+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:44:47.941+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-11-14T18:44:47.955+0900] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-11-14T18:44:48.070+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:44:48.069+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:44:48.082+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:44:48.082+0900] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-11-14T18:44:48.108+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.179 seconds

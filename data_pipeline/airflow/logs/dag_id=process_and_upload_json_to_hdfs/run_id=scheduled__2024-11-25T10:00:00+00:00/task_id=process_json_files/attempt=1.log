@@ -1,0 +1,176 @@
+[2024-11-25T20:00:03.523+0900] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-25T20:00:03.532+0900] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: process_and_upload_json_to_hdfs.process_json_files scheduled__2024-11-25T10:00:00+00:00 [queued]>
+[2024-11-25T20:00:03.538+0900] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: process_and_upload_json_to_hdfs.process_json_files scheduled__2024-11-25T10:00:00+00:00 [queued]>
+[2024-11-25T20:00:03.539+0900] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-11-25T20:00:03.554+0900] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): process_json_files> on 2024-11-25 10:00:00+00:00
+[2024-11-25T20:00:03.557+0900] {standard_task_runner.py:72} INFO - Started process 2759252 to run task
+[2024-11-25T20:00:03.560+0900] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'process_and_upload_json_to_hdfs', 'process_json_files', 'scheduled__2024-11-25T10:00:00+00:00', '--job-id', '263', '--raw', '--subdir', 'DAGS_FOLDER/data_to_hdfs.py', '--cfg-path', '/tmp/tmpgltphwu4']
+[2024-11-25T20:00:03.562+0900] {standard_task_runner.py:105} INFO - Job 263: Subtask process_json_files
+[2024-11-25T20:00:03.594+0900] {task_command.py:467} INFO - Running <TaskInstance: process_and_upload_json_to_hdfs.process_json_files scheduled__2024-11-25T10:00:00+00:00 [running]> on host MN
+[2024-11-25T20:00:03.660+0900] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='process_and_upload_json_to_hdfs' AIRFLOW_CTX_TASK_ID='process_json_files' AIRFLOW_CTX_EXECUTION_DATE='2024-11-25T10:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-25T10:00:00+00:00'
+[2024-11-25T20:00:03.661+0900] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-25T20:00:03.987+0900] {logging_mixin.py:190} INFO - Champion data for champion 26 saved to /laewon/Riot/output/champion_26.csv.
+[2024-11-25T20:00:04.094+0900] {logging_mixin.py:190} INFO - Champion data for champion 517 saved to /laewon/Riot/output/champion_517.csv.
+[2024-11-25T20:00:04.209+0900] {logging_mixin.py:190} INFO - Champion data for champion 15 saved to /laewon/Riot/output/champion_15.csv.
+[2024-11-25T20:00:04.349+0900] {logging_mixin.py:190} INFO - Champion data for champion 54 saved to /laewon/Riot/output/champion_54.csv.
+[2024-11-25T20:00:04.547+0900] {logging_mixin.py:190} INFO - Champion data for champion 81 saved to /laewon/Riot/output/champion_81.csv.
+[2024-11-25T20:00:04.684+0900] {logging_mixin.py:190} INFO - Champion data for champion 145 saved to /laewon/Riot/output/champion_145.csv.
+[2024-11-25T20:00:04.852+0900] {logging_mixin.py:190} INFO - Champion data for champion 222 saved to /laewon/Riot/output/champion_222.csv.
+[2024-11-25T20:00:05.044+0900] {logging_mixin.py:190} INFO - Champion data for champion 51 saved to /laewon/Riot/output/champion_51.csv.
+[2024-11-25T20:00:05.194+0900] {logging_mixin.py:190} INFO - Champion data for champion 99 saved to /laewon/Riot/output/champion_99.csv.
+[2024-11-25T20:00:05.264+0900] {logging_mixin.py:190} INFO - Champion data for champion 55 saved to /laewon/Riot/output/champion_55.csv.
+[2024-11-25T20:00:05.426+0900] {logging_mixin.py:190} INFO - Champion data for champion 53 saved to /laewon/Riot/output/champion_53.csv.
+[2024-11-25T20:00:05.529+0900] {logging_mixin.py:190} INFO - Champion data for champion 7 saved to /laewon/Riot/output/champion_7.csv.
+[2024-11-25T20:00:05.609+0900] {logging_mixin.py:190} INFO - Champion data for champion 59 saved to /laewon/Riot/output/champion_59.csv.
+[2024-11-25T20:00:05.659+0900] {logging_mixin.py:190} INFO - Champion data for champion 58 saved to /laewon/Riot/output/champion_58.csv.
+[2024-11-25T20:00:05.805+0900] {logging_mixin.py:190} INFO - Champion data for champion 25 saved to /laewon/Riot/output/champion_25.csv.
+[2024-11-25T20:00:05.938+0900] {logging_mixin.py:190} INFO - Champion data for champion 236 saved to /laewon/Riot/output/champion_236.csv.
+[2024-11-25T20:00:06.007+0900] {logging_mixin.py:190} INFO - Champion data for champion 68 saved to /laewon/Riot/output/champion_68.csv.
+[2024-11-25T20:00:06.067+0900] {logging_mixin.py:190} INFO - Champion data for champion 142 saved to /laewon/Riot/output/champion_142.csv.
+[2024-11-25T20:00:06.180+0900] {logging_mixin.py:190} INFO - Champion data for champion 31 saved to /laewon/Riot/output/champion_31.csv.
+[2024-11-25T20:00:06.259+0900] {logging_mixin.py:190} INFO - Champion data for champion 133 saved to /laewon/Riot/output/champion_133.csv.
+[2024-11-25T20:00:06.356+0900] {logging_mixin.py:190} INFO - Champion data for champion 112 saved to /laewon/Riot/output/champion_112.csv.
+[2024-11-25T20:00:06.398+0900] {logging_mixin.py:190} INFO - Champion data for champion 113 saved to /laewon/Riot/output/champion_113.csv.
+[2024-11-25T20:00:06.449+0900] {logging_mixin.py:190} INFO - Champion data for champion 6 saved to /laewon/Riot/output/champion_6.csv.
+[2024-11-25T20:00:06.494+0900] {logging_mixin.py:190} INFO - Champion data for champion 41 saved to /laewon/Riot/output/champion_41.csv.
+[2024-11-25T20:00:06.644+0900] {logging_mixin.py:190} INFO - Champion data for champion 110 saved to /laewon/Riot/output/champion_110.csv.
+[2024-11-25T20:00:06.722+0900] {logging_mixin.py:190} INFO - Champion data for champion 254 saved to /laewon/Riot/output/champion_254.csv.
+[2024-11-25T20:00:06.872+0900] {logging_mixin.py:190} INFO - Champion data for champion 21 saved to /laewon/Riot/output/champion_21.csv.
+[2024-11-25T20:00:07.004+0900] {logging_mixin.py:190} INFO - Champion data for champion 126 saved to /laewon/Riot/output/champion_126.csv.
+[2024-11-25T20:00:07.114+0900] {logging_mixin.py:190} INFO - Champion data for champion 67 saved to /laewon/Riot/output/champion_67.csv.
+[2024-11-25T20:00:07.188+0900] {logging_mixin.py:190} INFO - Champion data for champion 888 saved to /laewon/Riot/output/champion_888.csv.
+[2024-11-25T20:00:07.323+0900] {logging_mixin.py:190} INFO - Champion data for champion 115 saved to /laewon/Riot/output/champion_115.csv.
+[2024-11-25T20:00:07.390+0900] {logging_mixin.py:190} INFO - Champion data for champion 11 saved to /laewon/Riot/output/champion_11.csv.
+[2024-11-25T20:00:07.463+0900] {logging_mixin.py:190} INFO - Champion data for champion 875 saved to /laewon/Riot/output/champion_875.csv.
+[2024-11-25T20:00:07.514+0900] {logging_mixin.py:190} INFO - Champion data for champion 429 saved to /laewon/Riot/output/champion_429.csv.
+[2024-11-25T20:00:07.617+0900] {logging_mixin.py:190} INFO - Champion data for champion 221 saved to /laewon/Riot/output/champion_221.csv.
+[2024-11-25T20:00:07.699+0900] {logging_mixin.py:190} INFO - Champion data for champion 9 saved to /laewon/Riot/output/champion_9.csv.
+[2024-11-25T20:00:07.818+0900] {logging_mixin.py:190} INFO - Champion data for champion 61 saved to /laewon/Riot/output/champion_61.csv.
+[2024-11-25T20:00:07.961+0900] {logging_mixin.py:190} INFO - Champion data for champion 103 saved to /laewon/Riot/output/champion_103.csv.
+[2024-11-25T20:00:08.053+0900] {logging_mixin.py:190} INFO - Champion data for champion 40 saved to /laewon/Riot/output/champion_40.csv.
+[2024-11-25T20:00:08.137+0900] {logging_mixin.py:190} INFO - Champion data for champion 799 saved to /laewon/Riot/output/champion_799.csv.
+[2024-11-25T20:00:08.164+0900] {logging_mixin.py:190} INFO - Champion data for champion 60 saved to /laewon/Riot/output/champion_60.csv.
+[2024-11-25T20:00:08.256+0900] {logging_mixin.py:190} INFO - Champion data for champion 518 saved to /laewon/Riot/output/champion_518.csv.
+[2024-11-25T20:00:08.370+0900] {logging_mixin.py:190} INFO - Champion data for champion 29 saved to /laewon/Riot/output/champion_29.csv.
+[2024-11-25T20:00:08.465+0900] {logging_mixin.py:190} INFO - Champion data for champion 36 saved to /laewon/Riot/output/champion_36.csv.
+[2024-11-25T20:00:08.535+0900] {logging_mixin.py:190} INFO - Champion data for champion 127 saved to /laewon/Riot/output/champion_127.csv.
+[2024-11-25T20:00:08.596+0900] {logging_mixin.py:190} INFO - Champion data for champion 12 saved to /laewon/Riot/output/champion_12.csv.
+[2024-11-25T20:00:08.758+0900] {logging_mixin.py:190} INFO - Champion data for champion 202 saved to /laewon/Riot/output/champion_202.csv.
+[2024-11-25T20:00:08.834+0900] {logging_mixin.py:190} INFO - Champion data for champion 16 saved to /laewon/Riot/output/champion_16.csv.
+[2024-11-25T20:00:08.956+0900] {logging_mixin.py:190} INFO - Champion data for champion 101 saved to /laewon/Riot/output/champion_101.csv.
+[2024-11-25T20:00:09.080+0900] {logging_mixin.py:190} INFO - Champion data for champion 17 saved to /laewon/Riot/output/champion_17.csv.
+[2024-11-25T20:00:09.200+0900] {logging_mixin.py:190} INFO - Champion data for champion 498 saved to /laewon/Riot/output/champion_498.csv.
+[2024-11-25T20:00:09.280+0900] {logging_mixin.py:190} INFO - Champion data for champion 245 saved to /laewon/Riot/output/champion_245.csv.
+[2024-11-25T20:00:09.353+0900] {logging_mixin.py:190} INFO - Champion data for champion 37 saved to /laewon/Riot/output/champion_37.csv.
+[2024-11-25T20:00:09.465+0900] {logging_mixin.py:190} INFO - Champion data for champion 147 saved to /laewon/Riot/output/champion_147.csv.
+[2024-11-25T20:00:09.542+0900] {logging_mixin.py:190} INFO - Champion data for champion 105 saved to /laewon/Riot/output/champion_105.csv.
+[2024-11-25T20:00:09.664+0900] {logging_mixin.py:190} INFO - Champion data for champion 161 saved to /laewon/Riot/output/champion_161.csv.
+[2024-11-25T20:00:09.707+0900] {logging_mixin.py:190} INFO - Champion data for champion 893 saved to /laewon/Riot/output/champion_893.csv.
+[2024-11-25T20:00:09.772+0900] {logging_mixin.py:190} INFO - Champion data for champion 136 saved to /laewon/Riot/output/champion_136.csv.
+[2024-11-25T20:00:09.813+0900] {logging_mixin.py:190} INFO - Champion data for champion 902 saved to /laewon/Riot/output/champion_902.csv.
+[2024-11-25T20:00:09.901+0900] {logging_mixin.py:190} INFO - Champion data for champion 84 saved to /laewon/Riot/output/champion_84.csv.
+[2024-11-25T20:00:09.976+0900] {logging_mixin.py:190} INFO - Champion data for champion 122 saved to /laewon/Riot/output/champion_122.csv.
+[2024-11-25T20:00:09.999+0900] {logging_mixin.py:190} INFO - Champion data for champion 2 saved to /laewon/Riot/output/champion_2.csv.
+[2024-11-25T20:00:10.067+0900] {logging_mixin.py:190} INFO - Champion data for champion 910 saved to /laewon/Riot/output/champion_910.csv.
+[2024-11-25T20:00:10.161+0900] {logging_mixin.py:190} INFO - Champion data for champion 57 saved to /laewon/Riot/output/champion_57.csv.
+[2024-11-25T20:00:10.245+0900] {logging_mixin.py:190} INFO - Champion data for champion 117 saved to /laewon/Riot/output/champion_117.csv.
+[2024-11-25T20:00:10.360+0900] {logging_mixin.py:190} INFO - Champion data for champion 412 saved to /laewon/Riot/output/champion_412.csv.
+[2024-11-25T20:00:10.443+0900] {logging_mixin.py:190} INFO - Champion data for champion 13 saved to /laewon/Riot/output/champion_13.csv.
+[2024-11-25T20:00:10.508+0900] {logging_mixin.py:190} INFO - Champion data for champion 223 saved to /laewon/Riot/output/champion_223.csv.
+[2024-11-25T20:00:10.602+0900] {logging_mixin.py:190} INFO - Champion data for champion 777 saved to /laewon/Riot/output/champion_777.csv.
+[2024-11-25T20:00:10.698+0900] {logging_mixin.py:190} INFO - Champion data for champion 32 saved to /laewon/Riot/output/champion_32.csv.
+[2024-11-25T20:00:10.769+0900] {logging_mixin.py:190} INFO - Champion data for champion 134 saved to /laewon/Riot/output/champion_134.csv.
+[2024-11-25T20:00:10.916+0900] {logging_mixin.py:190} INFO - Champion data for champion 22 saved to /laewon/Riot/output/champion_22.csv.
+[2024-11-25T20:00:10.967+0900] {logging_mixin.py:190} INFO - Champion data for champion 92 saved to /laewon/Riot/output/champion_92.csv.
+[2024-11-25T20:00:11.039+0900] {logging_mixin.py:190} INFO - Champion data for champion 8 saved to /laewon/Riot/output/champion_8.csv.
+[2024-11-25T20:00:11.086+0900] {logging_mixin.py:190} INFO - Champion data for champion 19 saved to /laewon/Riot/output/champion_19.csv.
+[2024-11-25T20:00:11.148+0900] {logging_mixin.py:190} INFO - Champion data for champion 34 saved to /laewon/Riot/output/champion_34.csv.
+[2024-11-25T20:00:11.260+0900] {logging_mixin.py:190} INFO - Champion data for champion 43 saved to /laewon/Riot/output/champion_43.csv.
+[2024-11-25T20:00:11.306+0900] {logging_mixin.py:190} INFO - Champion data for champion 78 saved to /laewon/Riot/output/champion_78.csv.
+[2024-11-25T20:00:11.365+0900] {logging_mixin.py:190} INFO - Champion data for champion 523 saved to /laewon/Riot/output/champion_523.csv.
+[2024-11-25T20:00:11.459+0900] {logging_mixin.py:190} INFO - Champion data for champion 74 saved to /laewon/Riot/output/champion_74.csv.
+[2024-11-25T20:00:11.532+0900] {logging_mixin.py:190} INFO - Champion data for champion 154 saved to /laewon/Riot/output/champion_154.csv.
+[2024-11-25T20:00:11.610+0900] {logging_mixin.py:190} INFO - Champion data for champion 79 saved to /laewon/Riot/output/champion_79.csv.
+[2024-11-25T20:00:11.672+0900] {logging_mixin.py:190} INFO - Champion data for champion 62 saved to /laewon/Riot/output/champion_62.csv.
+[2024-11-25T20:00:11.766+0900] {logging_mixin.py:190} INFO - Champion data for champion 238 saved to /laewon/Riot/output/champion_238.csv.
+[2024-11-25T20:00:11.820+0900] {logging_mixin.py:190} INFO - Champion data for champion 876 saved to /laewon/Riot/output/champion_876.csv.
+[2024-11-25T20:00:11.909+0900] {logging_mixin.py:190} INFO - Champion data for champion 96 saved to /laewon/Riot/output/champion_96.csv.
+[2024-11-25T20:00:11.973+0900] {logging_mixin.py:190} INFO - Champion data for champion 20 saved to /laewon/Riot/output/champion_20.csv.
+[2024-11-25T20:00:12.079+0900] {logging_mixin.py:190} INFO - Champion data for champion 235 saved to /laewon/Riot/output/champion_235.csv.
+[2024-11-25T20:00:12.188+0900] {logging_mixin.py:190} INFO - Champion data for champion 64 saved to /laewon/Riot/output/champion_64.csv.
+[2024-11-25T20:00:12.280+0900] {logging_mixin.py:190} INFO - Champion data for champion 266 saved to /laewon/Riot/output/champion_266.csv.
+[2024-11-25T20:00:12.352+0900] {logging_mixin.py:190} INFO - Champion data for champion 711 saved to /laewon/Riot/output/champion_711.csv.
+[2024-11-25T20:00:12.448+0900] {logging_mixin.py:190} INFO - Champion data for champion 111 saved to /laewon/Riot/output/champion_111.csv.
+[2024-11-25T20:00:12.541+0900] {logging_mixin.py:190} INFO - Champion data for champion 157 saved to /laewon/Riot/output/champion_157.csv.
+[2024-11-25T20:00:12.591+0900] {logging_mixin.py:190} INFO - Champion data for champion 166 saved to /laewon/Riot/output/champion_166.csv.
+[2024-11-25T20:00:12.656+0900] {logging_mixin.py:190} INFO - Champion data for champion 234 saved to /laewon/Riot/output/champion_234.csv.
+[2024-11-25T20:00:12.730+0900] {logging_mixin.py:190} INFO - Champion data for champion 35 saved to /laewon/Riot/output/champion_35.csv.
+[2024-11-25T20:00:12.866+0900] {logging_mixin.py:190} INFO - Champion data for champion 76 saved to /laewon/Riot/output/champion_76.csv.
+[2024-11-25T20:00:12.902+0900] {logging_mixin.py:190} INFO - Champion data for champion 48 saved to /laewon/Riot/output/champion_48.csv.
+[2024-11-25T20:00:12.975+0900] {logging_mixin.py:190} INFO - Champion data for champion 24 saved to /laewon/Riot/output/champion_24.csv.
+[2024-11-25T20:00:13.034+0900] {logging_mixin.py:190} INFO - Champion data for champion 203 saved to /laewon/Riot/output/champion_203.csv.
+[2024-11-25T20:00:13.156+0900] {logging_mixin.py:190} INFO - Champion data for champion 555 saved to /laewon/Riot/output/champion_555.csv.
+[2024-11-25T20:00:13.203+0900] {logging_mixin.py:190} INFO - Champion data for champion 897 saved to /laewon/Riot/output/champion_897.csv.
+[2024-11-25T20:00:13.263+0900] {logging_mixin.py:190} INFO - Champion data for champion 131 saved to /laewon/Riot/output/champion_131.csv.
+[2024-11-25T20:00:13.321+0900] {logging_mixin.py:190} INFO - Champion data for champion 516 saved to /laewon/Riot/output/champion_516.csv.
+[2024-11-25T20:00:13.369+0900] {logging_mixin.py:190} INFO - Champion data for champion 98 saved to /laewon/Riot/output/champion_98.csv.
+[2024-11-25T20:00:13.414+0900] {logging_mixin.py:190} INFO - Champion data for champion 102 saved to /laewon/Riot/output/champion_102.csv.
+[2024-11-25T20:00:13.484+0900] {logging_mixin.py:190} INFO - Champion data for champion 119 saved to /laewon/Riot/output/champion_119.csv.
+[2024-11-25T20:00:13.628+0900] {logging_mixin.py:190} INFO - Champion data for champion 45 saved to /laewon/Riot/output/champion_45.csv.
+[2024-11-25T20:00:13.689+0900] {logging_mixin.py:190} INFO - Champion data for champion 85 saved to /laewon/Riot/output/champion_85.csv.
+[2024-11-25T20:00:13.805+0900] {logging_mixin.py:190} INFO - Champion data for champion 4 saved to /laewon/Riot/output/champion_4.csv.
+[2024-11-25T20:00:13.876+0900] {logging_mixin.py:190} INFO - Champion data for champion 89 saved to /laewon/Riot/output/champion_89.csv.
+[2024-11-25T20:00:13.908+0900] {logging_mixin.py:190} INFO - Champion data for champion 72 saved to /laewon/Riot/output/champion_72.csv.
+[2024-11-25T20:00:13.953+0900] {logging_mixin.py:190} INFO - Champion data for champion 163 saved to /laewon/Riot/output/champion_163.csv.
+[2024-11-25T20:00:13.977+0900] {logging_mixin.py:190} INFO - Champion data for champion 200 saved to /laewon/Riot/output/champion_200.csv.
+[2024-11-25T20:00:14.018+0900] {logging_mixin.py:190} INFO - Champion data for champion 114 saved to /laewon/Riot/output/champion_114.csv.
+[2024-11-25T20:00:14.090+0900] {logging_mixin.py:190} INFO - Champion data for champion 121 saved to /laewon/Riot/output/champion_121.csv.
+[2024-11-25T20:00:14.216+0900] {logging_mixin.py:190} INFO - Champion data for champion 63 saved to /laewon/Riot/output/champion_63.csv.
+[2024-11-25T20:00:14.268+0900] {logging_mixin.py:190} INFO - Champion data for champion 23 saved to /laewon/Riot/output/champion_23.csv.
+[2024-11-25T20:00:14.309+0900] {logging_mixin.py:190} INFO - Champion data for champion 164 saved to /laewon/Riot/output/champion_164.csv.
+[2024-11-25T20:00:14.366+0900] {logging_mixin.py:190} INFO - Champion data for champion 75 saved to /laewon/Riot/output/champion_75.csv.
+[2024-11-25T20:00:14.432+0900] {logging_mixin.py:190} INFO - Champion data for champion 3 saved to /laewon/Riot/output/champion_3.csv.
+[2024-11-25T20:00:14.500+0900] {logging_mixin.py:190} INFO - Champion data for champion 350 saved to /laewon/Riot/output/champion_350.csv.
+[2024-11-25T20:00:14.588+0900] {logging_mixin.py:190} INFO - Champion data for champion 42 saved to /laewon/Riot/output/champion_42.csv.
+[2024-11-25T20:00:14.622+0900] {logging_mixin.py:190} INFO - Champion data for champion 5 saved to /laewon/Riot/output/champion_5.csv.
+[2024-11-25T20:00:14.682+0900] {logging_mixin.py:190} INFO - Champion data for champion 201 saved to /laewon/Riot/output/champion_201.csv.
+[2024-11-25T20:00:14.786+0900] {logging_mixin.py:190} INFO - Champion data for champion 104 saved to /laewon/Riot/output/champion_104.csv.
+[2024-11-25T20:00:14.868+0900] {logging_mixin.py:190} INFO - Champion data for champion 30 saved to /laewon/Riot/output/champion_30.csv.
+[2024-11-25T20:00:14.943+0900] {logging_mixin.py:190} INFO - Champion data for champion 50 saved to /laewon/Riot/output/champion_50.csv.
+[2024-11-25T20:00:14.965+0900] {logging_mixin.py:190} INFO - Champion data for champion 246 saved to /laewon/Riot/output/champion_246.csv.
+[2024-11-25T20:00:15.074+0900] {logging_mixin.py:190} INFO - Champion data for champion 901 saved to /laewon/Riot/output/champion_901.csv.
+[2024-11-25T20:00:15.129+0900] {logging_mixin.py:190} INFO - Champion data for champion 14 saved to /laewon/Riot/output/champion_14.csv.
+[2024-11-25T20:00:15.172+0900] {logging_mixin.py:190} INFO - Champion data for champion 420 saved to /laewon/Riot/output/champion_420.csv.
+[2024-11-25T20:00:15.212+0900] {logging_mixin.py:190} INFO - Champion data for champion 141 saved to /laewon/Riot/output/champion_141.csv.
+[2024-11-25T20:00:15.250+0900] {logging_mixin.py:190} INFO - Champion data for champion 69 saved to /laewon/Riot/output/champion_69.csv.
+[2024-11-25T20:00:15.304+0900] {logging_mixin.py:190} INFO - Champion data for champion 39 saved to /laewon/Riot/output/champion_39.csv.
+[2024-11-25T20:00:15.328+0900] {logging_mixin.py:190} INFO - Champion data for champion 28 saved to /laewon/Riot/output/champion_28.csv.
+[2024-11-25T20:00:15.397+0900] {logging_mixin.py:190} INFO - Champion data for champion 1 saved to /laewon/Riot/output/champion_1.csv.
+[2024-11-25T20:00:15.477+0900] {logging_mixin.py:190} INFO - Champion data for champion 82 saved to /laewon/Riot/output/champion_82.csv.
+[2024-11-25T20:00:15.523+0900] {logging_mixin.py:190} INFO - Champion data for champion 267 saved to /laewon/Riot/output/champion_267.csv.
+[2024-11-25T20:00:15.574+0900] {logging_mixin.py:190} INFO - Champion data for champion 268 saved to /laewon/Riot/output/champion_268.csv.
+[2024-11-25T20:00:15.662+0900] {logging_mixin.py:190} INFO - Champion data for champion 80 saved to /laewon/Riot/output/champion_80.csv.
+[2024-11-25T20:00:15.773+0900] {logging_mixin.py:190} INFO - Champion data for champion 18 saved to /laewon/Riot/output/champion_18.csv.
+[2024-11-25T20:00:15.810+0900] {logging_mixin.py:190} INFO - Champion data for champion 56 saved to /laewon/Riot/output/champion_56.csv.
+[2024-11-25T20:00:15.852+0900] {logging_mixin.py:190} INFO - Champion data for champion 432 saved to /laewon/Riot/output/champion_432.csv.
+[2024-11-25T20:00:15.941+0900] {logging_mixin.py:190} INFO - Champion data for champion 10 saved to /laewon/Riot/output/champion_10.csv.
+[2024-11-25T20:00:15.976+0900] {logging_mixin.py:190} INFO - Champion data for champion 77 saved to /laewon/Riot/output/champion_77.csv.
+[2024-11-25T20:00:16.052+0900] {logging_mixin.py:190} INFO - Champion data for champion 27 saved to /laewon/Riot/output/champion_27.csv.
+[2024-11-25T20:00:16.084+0900] {logging_mixin.py:190} INFO - Champion data for champion 887 saved to /laewon/Riot/output/champion_887.csv.
+[2024-11-25T20:00:16.112+0900] {logging_mixin.py:190} INFO - Champion data for champion 233 saved to /laewon/Riot/output/champion_233.csv.
+[2024-11-25T20:00:16.167+0900] {logging_mixin.py:190} INFO - Champion data for champion 143 saved to /laewon/Riot/output/champion_143.csv.
+[2024-11-25T20:00:16.197+0900] {logging_mixin.py:190} INFO - Champion data for champion 526 saved to /laewon/Riot/output/champion_526.csv.
+[2024-11-25T20:00:16.235+0900] {logging_mixin.py:190} INFO - Champion data for champion 38 saved to /laewon/Riot/output/champion_38.csv.
+[2024-11-25T20:00:16.287+0900] {logging_mixin.py:190} INFO - Champion data for champion 90 saved to /laewon/Riot/output/champion_90.csv.
+[2024-11-25T20:00:16.308+0900] {logging_mixin.py:190} INFO - Champion data for champion 427 saved to /laewon/Riot/output/champion_427.csv.
+[2024-11-25T20:00:16.345+0900] {logging_mixin.py:190} INFO - Champion data for champion 91 saved to /laewon/Riot/output/champion_91.csv.
+[2024-11-25T20:00:16.418+0900] {logging_mixin.py:190} INFO - Champion data for champion 86 saved to /laewon/Riot/output/champion_86.csv.
+[2024-11-25T20:00:16.444+0900] {logging_mixin.py:190} INFO - Champion data for champion 44 saved to /laewon/Riot/output/champion_44.csv.
+[2024-11-25T20:00:16.475+0900] {logging_mixin.py:190} INFO - Champion data for champion 497 saved to /laewon/Riot/output/champion_497.csv.
+[2024-11-25T20:00:16.571+0900] {logging_mixin.py:190} INFO - All new JSON files have been processed and saved as 'match_data_combined.csv'.
+[2024-11-25T20:00:16.587+0900] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-25T20:00:16.592+0900] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-25T20:00:16.592+0900] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=process_and_upload_json_to_hdfs, task_id=process_json_files, run_id=scheduled__2024-11-25T10:00:00+00:00, execution_date=20241125T100000, start_date=20241125T110003, end_date=20241125T110016
+[2024-11-25T20:00:16.619+0900] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-25T20:00:16.636+0900] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-25T20:00:16.641+0900] {local_task_job_runner.py:245} INFO - ::endgroup::

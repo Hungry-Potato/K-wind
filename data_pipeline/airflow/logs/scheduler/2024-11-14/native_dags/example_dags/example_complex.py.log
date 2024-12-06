@@ -1,0 +1,50 @@
+[2024-11-14T18:40:10.175+0900] {processor.py:186} INFO - Started process (PID=2365494) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2024-11-14T18:40:10.176+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-11-14T18:40:10.178+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:10.178+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2024-11-14T18:40:10.194+0900] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2024-11-14T18:40:10.321+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:10.320+0900] {override.py:1901} INFO - Created Permission View: can edit on DAG:example_complex
+[2024-11-14T18:40:10.333+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:10.333+0900] {override.py:1901} INFO - Created Permission View: can delete on DAG:example_complex
+[2024-11-14T18:40:10.342+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:10.342+0900] {override.py:1901} INFO - Created Permission View: can read on DAG:example_complex
+[2024-11-14T18:40:10.356+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:10.355+0900] {override.py:1901} INFO - Created Permission View: can create on DAG Run:example_complex
+[2024-11-14T18:40:10.365+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:10.365+0900] {override.py:1901} INFO - Created Permission View: can read on DAG Run:example_complex
+[2024-11-14T18:40:10.374+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:10.374+0900] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:example_complex
+[2024-11-14T18:40:10.384+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:10.384+0900] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:example_complex
+[2024-11-14T18:40:10.385+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:10.384+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:40:10.398+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:10.398+0900] {dag.py:3262} INFO - Creating ORM DAG for example_complex
+[2024-11-14T18:40:10.398+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:10.398+0900] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-11-14T18:40:10.420+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.252 seconds
+[2024-11-14T18:41:37.262+0900] {processor.py:186} INFO - Started process (PID=2366063) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2024-11-14T18:41:37.266+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-11-14T18:41:37.268+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:41:37.268+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2024-11-14T18:41:37.285+0900] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2024-11-14T18:41:37.317+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:41:37.317+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:41:37.332+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:41:37.331+0900] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-11-14T18:41:37.356+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.101 seconds
+[2024-11-14T18:42:31.781+0900] {processor.py:186} INFO - Started process (PID=2366301) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2024-11-14T18:42:31.785+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-11-14T18:42:31.787+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:42:31.787+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2024-11-14T18:42:31.804+0900] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2024-11-14T18:42:31.836+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:42:31.836+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:42:31.851+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:42:31.850+0900] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-11-14T18:42:31.875+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.101 seconds
+[2024-11-14T18:43:26.632+0900] {processor.py:186} INFO - Started process (PID=2366390) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2024-11-14T18:43:26.636+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-11-14T18:43:26.638+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:43:26.637+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2024-11-14T18:43:26.654+0900] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2024-11-14T18:43:26.687+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:43:26.686+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:43:26.701+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:43:26.701+0900] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-11-14T18:43:26.725+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.100 seconds
+[2024-11-14T18:44:18.624+0900] {processor.py:186} INFO - Started process (PID=2366443) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2024-11-14T18:44:18.628+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-11-14T18:44:18.630+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:44:18.630+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2024-11-14T18:44:18.646+0900] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2024-11-14T18:44:18.678+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:44:18.677+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:44:18.692+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:44:18.691+0900] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-11-14T18:44:18.716+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.098 seconds
+[2024-11-14T18:45:09.864+0900] {processor.py:186} INFO - Started process (PID=2366525) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2024-11-14T18:45:09.868+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-11-14T18:45:09.870+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:45:09.870+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2024-11-14T18:45:09.886+0900] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2024-11-14T18:45:09.919+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:45:09.918+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:45:09.933+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:45:09.933+0900] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-11-14T18:45:09.958+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.101 seconds

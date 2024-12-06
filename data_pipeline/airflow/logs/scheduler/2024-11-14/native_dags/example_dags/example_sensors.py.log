@@ -1,0 +1,50 @@
+[2024-11-14T18:39:50.395+0900] {processor.py:186} INFO - Started process (PID=2365403) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-14T18:39:50.396+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-14T18:39:50.398+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:50.398+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-14T18:39:50.412+0900] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-14T18:39:50.534+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:50.533+0900] {override.py:1901} INFO - Created Permission View: can edit on DAG:example_sensors
+[2024-11-14T18:39:50.546+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:50.545+0900] {override.py:1901} INFO - Created Permission View: can delete on DAG:example_sensors
+[2024-11-14T18:39:50.555+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:50.554+0900] {override.py:1901} INFO - Created Permission View: can read on DAG:example_sensors
+[2024-11-14T18:39:50.568+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:50.568+0900] {override.py:1901} INFO - Created Permission View: can create on DAG Run:example_sensors
+[2024-11-14T18:39:50.577+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:50.577+0900] {override.py:1901} INFO - Created Permission View: can read on DAG Run:example_sensors
+[2024-11-14T18:39:50.586+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:50.586+0900] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:example_sensors
+[2024-11-14T18:39:50.595+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:50.595+0900] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:example_sensors
+[2024-11-14T18:39:50.596+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:50.596+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:39:50.609+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:50.608+0900] {dag.py:3262} INFO - Creating ORM DAG for example_sensors
+[2024-11-14T18:39:50.609+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:50.609+0900] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-14T18:39:50.629+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.241 seconds
+[2024-11-14T18:41:10.168+0900] {processor.py:186} INFO - Started process (PID=2365932) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-14T18:41:10.172+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-14T18:41:10.174+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:41:10.174+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-14T18:41:10.188+0900] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-14T18:41:10.213+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:41:10.213+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:41:10.228+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:41:10.227+0900] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-14T18:41:10.252+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.091 seconds
+[2024-11-14T18:42:11.061+0900] {processor.py:186} INFO - Started process (PID=2366190) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-14T18:42:11.065+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-14T18:42:11.067+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:42:11.067+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-14T18:42:11.081+0900] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-14T18:42:11.106+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:42:11.106+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:42:11.121+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:42:11.121+0900] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-14T18:42:11.145+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.091 seconds
+[2024-11-14T18:43:13.012+0900] {processor.py:186} INFO - Started process (PID=2366374) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-14T18:43:13.016+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-14T18:43:13.019+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:43:13.018+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-14T18:43:13.032+0900] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-14T18:43:13.057+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:43:13.057+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:43:13.072+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:43:13.071+0900] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-14T18:43:13.096+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.091 seconds
+[2024-11-14T18:44:04.690+0900] {processor.py:186} INFO - Started process (PID=2366428) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-14T18:44:04.693+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-14T18:44:04.696+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:44:04.695+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-14T18:44:04.709+0900] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-14T18:44:04.734+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:44:04.733+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:44:04.749+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:44:04.749+0900] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-14T18:44:04.773+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.091 seconds
+[2024-11-14T18:44:55.197+0900] {processor.py:186} INFO - Started process (PID=2366510) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-14T18:44:55.201+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-14T18:44:55.203+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:44:55.203+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-14T18:44:55.216+0900] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-14T18:44:55.241+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:44:55.241+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:44:55.256+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:44:55.256+0900] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-14T18:44:55.281+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.091 seconds

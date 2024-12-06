@@ -1,0 +1,57 @@
+[2024-11-14T18:39:27.774+0900] {processor.py:186} INFO - Started process (PID=2365277) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-14T18:39:27.775+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-14T18:39:27.777+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:27.776+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-14T18:39:27.788+0900] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-14T18:39:27.907+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:27.907+0900] {override.py:1901} INFO - Created Permission View: can edit on DAG:example_task_group
+[2024-11-14T18:39:27.921+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:27.920+0900] {override.py:1901} INFO - Created Permission View: can delete on DAG:example_task_group
+[2024-11-14T18:39:27.930+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:27.929+0900] {override.py:1901} INFO - Created Permission View: can read on DAG:example_task_group
+[2024-11-14T18:39:27.942+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:27.942+0900] {override.py:1901} INFO - Created Permission View: can create on DAG Run:example_task_group
+[2024-11-14T18:39:27.951+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:27.951+0900] {override.py:1901} INFO - Created Permission View: can read on DAG Run:example_task_group
+[2024-11-14T18:39:27.960+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:27.960+0900] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:example_task_group
+[2024-11-14T18:39:27.969+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:27.969+0900] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:example_task_group
+[2024-11-14T18:39:27.969+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:27.969+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:39:27.983+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:27.982+0900] {dag.py:3262} INFO - Creating ORM DAG for example_task_group
+[2024-11-14T18:39:27.983+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:39:27.983+0900] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-14T18:39:28.003+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.236 seconds
+[2024-11-14T18:40:34.164+0900] {processor.py:186} INFO - Started process (PID=2365575) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-14T18:40:34.168+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-14T18:40:34.170+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:34.170+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-14T18:40:34.180+0900] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-14T18:40:34.200+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:34.199+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:40:34.215+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:40:34.215+0900] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-14T18:40:34.237+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.080 seconds
+[2024-11-14T18:41:23.300+0900] {processor.py:186} INFO - Started process (PID=2366020) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-14T18:41:23.304+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-14T18:41:23.306+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:41:23.305+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-14T18:41:23.316+0900] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-14T18:41:23.335+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:41:23.335+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:41:23.350+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:41:23.350+0900] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-14T18:41:23.371+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.078 seconds
+[2024-11-14T18:42:19.447+0900] {processor.py:186} INFO - Started process (PID=2366228) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-14T18:42:19.451+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-14T18:42:19.453+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:42:19.453+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-14T18:42:19.464+0900] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-14T18:42:19.483+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:42:19.482+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:42:19.497+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:42:19.497+0900] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-14T18:42:19.518+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.079 seconds
+[2024-11-14T18:43:09.812+0900] {processor.py:186} INFO - Started process (PID=2366371) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-14T18:43:09.816+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-14T18:43:09.818+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:43:09.818+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-14T18:43:09.829+0900] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-14T18:43:09.848+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:43:09.848+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:43:09.864+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:43:09.863+0900] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-14T18:43:09.885+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.080 seconds
+[2024-11-14T18:44:01.827+0900] {processor.py:186} INFO - Started process (PID=2366425) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-14T18:44:01.831+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-14T18:44:01.833+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:44:01.833+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-14T18:44:01.843+0900] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-14T18:44:01.863+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:44:01.862+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:44:01.877+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:44:01.877+0900] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-14T18:44:01.900+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.080 seconds
+[2024-11-14T18:44:52.341+0900] {processor.py:186} INFO - Started process (PID=2366507) to work on /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-14T18:44:52.345+0900] {processor.py:914} INFO - Processing file /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-14T18:44:52.348+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:44:52.347+0900] {dagbag.py:588} INFO - Filling up the DagBag from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-14T18:44:52.358+0900] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-14T18:44:52.377+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:44:52.377+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T18:44:52.392+0900] {logging_mixin.py:190} INFO - [2024-11-14T18:44:52.392+0900] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-14T18:44:52.413+0900] {processor.py:208} INFO - Processing /laewon/airflow_test/py_venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.079 seconds
