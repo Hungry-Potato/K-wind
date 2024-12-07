@@ -1,5 +1,5 @@
 # K-wind
-League of Legend 무작위총력전 승부 예측
+League of Legend 칼바람나락 승부 예측
 
 <br></br>
 
