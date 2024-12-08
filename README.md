@@ -15,7 +15,7 @@ League of Legend 칼바람나락 승부 예측
     <tr><td>API</td><td>Riot API</td>
 </table>
 
-### FE, BE, DP
+### Tools
 <table>
 	<tr><th rowspan="1">FrontEnd</th><td>React: 18.3.1</td></tr>
 	<tr><th rowspan="1">BackEnd</th><td>Flask</td></tr>
