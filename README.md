@@ -1,14 +1,11 @@
 # K-wind
-League of Legend 칼바람나락 승부 예측
-
-</br>
+League of Legend 칼바람나락 승부 예측</br>
+[Link](https://bit.ly/3BmQO4z)</br>
 
 # 프로젝트 소개
 > DataPipeline을 직접 구축해보기 위해 시작된 토이 프로젝트입니다. <br/>
 > Hadoop HDFS, SparkML, Airflow의 활용을 목표로 했습니다. <br/>
-> 가끔 칼바람을 즐기는데 챔피언 별 조합과 티어만으로도 승률을 예측할 수 있을지 궁금해 토이 프로젝트 주제로 선정했습니다.
-
-</br>
+> 가끔 칼바람을 즐기는데 챔피언 별 조합과 티어만으로도 승률을 예측할 수 있을지 궁금해 토이 프로젝트 주제로 선정했습니다.</br>
 
 # Stack
 ### App
