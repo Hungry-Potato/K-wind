@@ -1,6 +1,6 @@
 # K-wind
 League of Legend 칼바람나락 승부 예측</br>
-[Link](http://10.11.70.51:3000/)</br>
+[Link]</br>
 
 # 프로젝트 소개
 > DataPipeline을 직접 구축해보기 위해 시작된 토이 프로젝트입니다. <br/>
