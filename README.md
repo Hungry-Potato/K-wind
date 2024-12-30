@@ -10,11 +10,12 @@ League of Legend 칼바람나락 승부 예측</br>
 # Stack
 ### App
 <table>
-  <tr><th rowspan="2">App</th><td>Language</td><td>Python, JavaScript</td>
+  <tr><th rowspan="2">App</th><td>Language</td><td>Python, JavaScript</td> 
     <tr><td>API</td><td>Riot API</td>
 </table>
 
 ### Tools
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Apache Hadoop](https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black) ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=for-the-badge&logo=apachespark&logoColor=black) ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white)
 <table>
 	<tr><th rowspan="1">FrontEnd</th><td>React: 18.3.1</td></tr>
 	<tr><th rowspan="1">BackEnd</th><td>Flask</td></tr>
